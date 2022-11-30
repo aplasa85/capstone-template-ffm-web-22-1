@@ -1,4 +1,5 @@
 
+
 //import { redirect } from "next/dist/server/api-utils"
 import styled from "styled-components"
 
@@ -8,7 +9,7 @@ export default function Layout({children}) {
    <>
         <StyledNav>
          
-        <StyledMenu />      
+     
 
 <header>
       
@@ -33,15 +34,7 @@ export default function Layout({children}) {
 
 const StyledNav = styled.nav`
 background-color: black;
-align-items: right;
-width: 100%;
-padding: 5px;
-align-content: space-evenly;
-`
 
-const StyledMenu = styled.input`
-padding: 10;
-display: flex;
-//justify-content: right;
-//align-items: space-around;`
- 
+width: 100%;
+padding: 20px;
+align-content: space-evenly;`
