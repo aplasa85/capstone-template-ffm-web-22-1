@@ -13,6 +13,8 @@ export default function Layout({children}) {
       </StyledNav>
 
       <main>{children}</main>
+
+      
     </>
   );
 }
