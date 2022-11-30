@@ -1,17 +1,16 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 
 const about = () => {
-    return (
-        <div>
-            <Head>
-                <title>About</title>
-            </Head>
+  return (
+    <div>
+      <Head>
+        <title>About</title>
+      </Head>
 
-            <h1>About</h1>
+      <h1>About</h1>
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default about
+export default about;
