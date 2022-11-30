@@ -4,7 +4,11 @@ const GlobalStyles = createGlobalStyle`
     html,
     body {
         padding: 0;
+        
+        
         margin: 0;
+        background-color: beige;
+        color: black; 
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
     * {
