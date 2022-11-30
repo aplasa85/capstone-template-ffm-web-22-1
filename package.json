@@ -43,6 +43,7 @@
     "eslint-plugin-storybook": "^0.6.7",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
+    "next-images": "^1.8.4",
     "prettier": "^2.8.0"
   }
 }

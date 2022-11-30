@@ -1,6 +1,8 @@
 //import Head from "next/head"
-//import layout from "../components/layout"
+//import Layout from "../components/layout"
 import styled from "styled-components"
+//import image from "next/image";
+//import agave from '..public/Agave_tequilana_2';
 
 export default function Home() {
   return (
@@ -25,24 +27,34 @@ of your convenience.</p>
 
 
 </StyledParagraph>
-</>
 
-  );
+<StyledFooter>
+<p>© Casa del Agave</p>
+</StyledFooter>
+
+</>
+);
 }
+
+
 
 const StyledTitle = styled.h1`
 border: 1px solid black;
 width: 550px;
 height: 150px;
 justify-content: right;
-margin-left: 30%;
+margin-left: 30%;`
 
-`
 const StyledParagraph = styled.p`
 border: 1px solid black;
 width: 300px;
 margin-top: 100px;
 margin-left: 150px;
-justify-content: center;
-font-size: 20px;
-`
+/*justify-content: center;*/
+font-size: 20px;`
+
+const StyledFooter = styled.footer`
+background-color: black;
+color: white;
+height: 30px;
+width: 100%;`

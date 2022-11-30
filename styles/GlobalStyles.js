@@ -4,8 +4,6 @@ const GlobalStyles = createGlobalStyle`
     html,
     body {
         padding: 0;
-        
-        
         margin: 0;
         background-color: beige;
         color: black; 
