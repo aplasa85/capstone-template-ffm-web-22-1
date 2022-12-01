@@ -2,7 +2,7 @@
 //import { redirect } from "next/dist/server/api-utils";
 import Image from "next/image"
 import styled from "styled-components";
-import Icon from "../public/Agave.jpg"
+import Icon from "../public/Assets/Agave.jpg"
 
 export default function Home() {
 return (
