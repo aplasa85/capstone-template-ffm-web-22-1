@@ -14,6 +14,10 @@ export default function Layout({children}) {
 
       <main>{children}</main>
 
+      <StyledFooter>
+<p>© Casa del Agave</p>
+</StyledFooter>
+
     </>
   );
 }
@@ -25,3 +29,11 @@ const StyledNav = styled.nav`
   padding: 20px;
   align-content: space-evenly;
 `;
+
+const StyledFooter = styled.footer`
+background-color: black;
+color: white;
+height: 60px;
+padding: 30px;
+padding-top: 10px; 
+width: 100%;`
