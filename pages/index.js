@@ -1,5 +1,5 @@
-import { sanitize } from "@storybook/csf";
-import { redirect } from "next/dist/server/api-utils";
+//import { sanitize } from "@storybook/csf";
+//import { redirect } from "next/dist/server/api-utils";
 import Image from "next/image"
 import styled from "styled-components";
 import Icon from "../public/Agave.jpg"

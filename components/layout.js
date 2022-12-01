@@ -35,5 +35,5 @@ background-color: black;
 color: white;
 height: 60px;
 padding: 30px;
-padding-top: 10px; 
+padding-top: 8px; 
 width: 100%;`
