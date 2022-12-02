@@ -6,9 +6,9 @@ export default function Layout({children}) {
     <>
       <StyledNav>
         <header>
-          <button className="menu">Menu</button>
-          <input />
-          <button className="menu">Search</button>
+          <StyledMenu className="menu1">Menu</StyledMenu>
+          <StyledInput />
+          <StyledSearch className="menu2">Search</StyledSearch>
         </header>
       </StyledNav>
 
@@ -37,3 +37,15 @@ height: 60px;
 padding: 30px;
 padding-top: 8px; 
 width: 100%;`
+
+const StyledMenu = styled.button`
+margin-right: 1050px;
+padding: 5px;
+`
+
+const StyledInput = styled.input`
+margin-right: 20px;`
+
+const StyledSearch = styled.button`
+padding: 5px;
+`
