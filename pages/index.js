@@ -3,8 +3,17 @@
 import Image from "next/image"
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg"
+import { useState } from "react";
+import TequilaList from "../_data/TequilaList.json"
 
-export default function Home() {
+export default function Home(Product) {
+
+const [showProduct, setShowProduct] = useState (true)
+const handleProduct = () => {
+    setShowProduct (showProduct)
+}
+
+
 return (
 
 
@@ -27,7 +36,29 @@ return (
     </StyledParagraph>
 
     <TheImage src={Icon} width="310" height="255" alt="an image" />
-</>
+    
+    <div className="Container">
+        {TequilaList.map(handleProduct)}  => {
+             <Product img= {handleProduct.TequilaPics.id} />
+        });
+
+    </div>
+    
+
+
+    
+    </>
+
+
+
+
+
+
+
+
+
+
+
 );
 }
 
