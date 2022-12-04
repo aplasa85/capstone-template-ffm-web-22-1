@@ -4,7 +4,7 @@ import Image from "next/image"
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg"
 import { useState } from "react";
-import TequilaList from "../_data/TequilaList.json"
+import TequilaList from "../_data/TequilaList"
 
 export default function Home(Product) {
 
@@ -38,9 +38,9 @@ return (
     <TheImage src={Icon} width="310" height="255" alt="an image" />
     
     <div className="Container">
-        {TequilaList.map(handleProduct)}  => {
-             <Product img= {handleProduct.TequilaPics.id} />
-        });
+        {/* {TequilaList.map(item  => {
+             return (<Product key={item.id} img= {item.id} />)})} */}
+             {JSON.stringify(TequilaList)}
 
     </div>
     

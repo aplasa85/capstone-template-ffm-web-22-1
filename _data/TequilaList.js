@@ -1,3 +1,6 @@
+
+
+const TequilaList = 
 [
 {
     "id": "1",
@@ -68,3 +71,7 @@
     "price": "40 euro" 
 }
 ]
+
+
+
+export default TequilaList 
