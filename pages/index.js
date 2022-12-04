@@ -5,61 +5,59 @@ import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg"
 import { useState } from "react";
 import TequilaList from "../_data/TequilaList"
+import TequilaCard from "../components/TequilaCard"
 
-export default function Home(Product) {
+export default function Home() {
 
-const [showProduct, setShowProduct] = useState (true)
-const handleProduct = () => {
-    setShowProduct (showProduct)
-}
-
-
-return (
+    const [showProduct, setShowProduct] = useState(true)
+    const handleProduct = () => {
+        setShowProduct(showProduct)
+    }
 
 
-<>
-    
+    return (
 
-    <StyledTitle>Casa del Agave</StyledTitle>
-
-    <StyledParagraph>
-    Welcome to the Casa
-    del Agave online shop. 
-    Here you can find a fine
-    selection of tequila and
-    mezcal brands delivered
-    right to your home.
-    Thank you for choosing us 
-    and we certainly hope 
-    you will find the beverage 
-    of your convenience.
-    </StyledParagraph>
-
-    <TheImage src={Icon} width="310" height="255" alt="an image" />
-    
-    <div className="Container">
-        {/* {TequilaList.map(item  => {
-             return (<Product key={item.id} img= {item.id} />)})} */}
-             {JSON.stringify(TequilaList)}
-
-    </div>
-    
+        <div>
 
 
-    
-    </>
+            <StyledTitle>Casa del Agave</StyledTitle>
+
+            <StyledParagraph>
+                Welcome to the Casa
+                del Agave online shop.
+                Here you can find a fine
+                selection of tequila and
+                mezcal brands delivered
+                right to your home.
+                Thank you for choosing us
+                and we certainly hope
+                you will find the beverage
+                of your convenience.
+            </StyledParagraph>
+
+            <TheImage src={Icon} width="310" height="255" alt="an image" />
 
 
+        
+            <div className="Container">
+                {
+                    TequilaList.map(tequila => {
+                        return (<TequilaCard key={tequila.id} tequila={tequila} />
+                        )
+                    })
+
+                }
 
 
+            </div>
 
 
 
 
+        </div >
 
+    )
 
-
-);
 }
 
 const TheImage = styled(Image)`
@@ -90,3 +88,5 @@ font-size: 20px;
 align-content: center;
 padding: 10px;
 `
+
+
