@@ -3,18 +3,13 @@
 import Image from "next/image"
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg"
-import { useState } from "react";
+//import { useState } from "react";
 import TequilaList from "../_data/TequilaList"
 import TequilaCard from "../components/TequilaCard"
 
 export default function Home() {
 
-    const [showProduct, setShowProduct] = useState(true)
-    const handleProduct = () => {
-        setShowProduct(showProduct)
-    }
-
-
+    
     return (
 
         <div>
