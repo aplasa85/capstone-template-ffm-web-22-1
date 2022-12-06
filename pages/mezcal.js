@@ -2,13 +2,15 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image"
 import Icon from "../public/Assets/Agave.jpg"
-import styled from "styled-components";
+/*import TequilaCard from "./TequilaCard"*/
+//import TequilaList from "../_data/TequilaList"
+import styled from "styled-components"
 
 const products = () => {
   return (
     <div>
       <Head>
-        <title>Product</title>
+        <title>Mezcal</title>
       </Head>
       <>
     
@@ -31,11 +33,10 @@ const products = () => {
 
     <TheImage src={Icon} width="310" height="255" alt="an image" />
 </>
-);
 
 
 
-`
+    
 
     </div>
   

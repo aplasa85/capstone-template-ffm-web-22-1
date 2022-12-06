@@ -5,15 +5,15 @@ import styled from 'styled-components'
 
 
 
-const TequilaCard = ({ tequila }) => {
+const MezcalCard = ({ mezcal }) => {
     return (
-        <Link href="/article/[id]" as={`/article/${tequila.id}`}>
+        <Link href="/article/[id]" as={`/article/${mezcal.id}`}>
             <StyledCard>
 
-                <h3> {tequila.brand} &rarr; </h3>
-                <p>{tequila.type}</p>
-                <p>{tequila.rating}</p>
-                <p>{tequila.price}</p>
+                <h3> {mezcal.brand} &rarr; </h3>
+                <p>{mezcal.type}</p>
+                <p>{mezcal.rating}</p>
+                <p>{mezcal.price}</p>
         
                     <img src={`https://picsum.photos/200`} width="150" height="150" alt="an image" />
             
@@ -50,4 +50,4 @@ const StyledCard = styled.div`
     }*/
     `
 
-export default TequilaCard
+export default MezcalCard
