@@ -1,6 +1,3 @@
-
-
-const TequilaList = 
 [
 {
     "id": "1",
@@ -72,6 +69,3 @@ const TequilaList =
 }
 ]
 
-
-
-export default TequilaList 
