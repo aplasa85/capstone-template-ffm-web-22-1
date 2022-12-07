@@ -15,8 +15,11 @@ const MezcalCard = ({ mezcal }) => {
                 <p>{mezcal.rating}</p>
                 <p>{mezcal.price}</p>
         
-                    <img src={`https://picsum.photos/200`} width="150" height="150" alt="an image" />
+                    <img src={`${mezcal.id}`} width="150" height="150" alt="an image" />
             
+
+
+            <br/>
                 <button className='Add'>Add</button>
                 <button className= 'Remove'>Remove</button>
               

@@ -15,7 +15,7 @@ const TequilaCard = ({ tequila }) => {
                 <p>{tequila.rating}</p>
                 <p>{tequila.price}</p>
         
-                    <img src={`https://picsum.photos/200`} width="150" height="150" alt="an image" />
+                    <img src={`${tequila.image}`} width="150" height="150" alt="an image" />
             
                 <button className='Add'>Add</button>
                 <button className= 'Remove'>Remove</button>
