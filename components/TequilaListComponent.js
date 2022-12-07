@@ -23,7 +23,7 @@ const Tequila = ({tequilaData}) => {
        <StyledTitle>Casa del Agave</StyledTitle>
         <StyledTitle1>Tequila</StyledTitle1>
       
-      
+  
       
       
     
@@ -47,17 +47,9 @@ const Tequila = ({tequilaData}) => {
     
         </article>
     
-    {tequilaData.map(tequilaInfo => { return (<TequilaCard  key= {tequilaInfo.id}tequila={tequilaInfo} /> )} )} 
-    
-    
-    
-    
-    
+        {tequilaData.map(tequilaInfo => { return (<TequilaCard  key= {tequilaInfo.id}tequila={tequilaInfo} /> )} )}  
     
         </> 
-    
-    
-    
     
       )
       }
