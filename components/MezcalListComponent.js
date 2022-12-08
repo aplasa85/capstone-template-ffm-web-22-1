@@ -4,11 +4,9 @@ import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
 import MezcalCard from "../components/MezcalCard";
 import styled from "styled-components";
-//import Link from "next/link";
+
 
 const Mezcal = ({mezcalData}) => {
-  console.log(mezcalData);
-
   return (
     <div>
       <Head>
@@ -25,7 +23,7 @@ const Mezcal = ({mezcalData}) => {
           beverage of your convenience.
         </StyledParagraph>
 
-        <StyledImage src={Icon} width="310" height="255" alt="an image" />
+        <StyledImage src={Icon} width="310" height="255" alt="Agave Plant" />
       </>
 
       {mezcalData.map(mezcalInfo => {

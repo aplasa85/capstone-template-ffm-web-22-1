@@ -1,20 +1,6 @@
-//import { sanitize } from "@storybook/csf";
-//import { redirect } from "next/dist/server/api-utils";
 import Image from "next/image";
-//import { redirect } from "next/dist/server/api-utils";
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg";
-//import { useState } from "react";
-//import TequilaList from "../_data/TequilaList"
-//import MezcalList   from "../_data/MezcalList"
-//import MezcalCard from "../components/MezcalCard";
-//import TequilaCard from "../components/TequilaCard"
-//import { redirect } from "next/dist/server/api-utils";
-
-//const [showProduct, setShowProduct] = useState(true)
-//const handleProduct = () => {
-// setShowProduct(showProduct)
-// }
 
 const Home = () => {
   return (
@@ -33,7 +19,7 @@ const Home = () => {
         beverage of your convenience.
       </StyledParagraph>
 
-      <TheImage src={Icon} width="310" height="255" alt="an image" />
+      <TheImage src={Icon} width="310" height="255" alt="Agave plant" />
     </div>
   );
 };

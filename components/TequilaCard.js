@@ -15,7 +15,7 @@ function TequilaCard({tequila}) {
           src={`${tequila.image}`}
           width="150"
           height="150"
-          alt="an image"
+          alt="Bottle of Tequila"
         />
 
         <button className="Add">Add</button>

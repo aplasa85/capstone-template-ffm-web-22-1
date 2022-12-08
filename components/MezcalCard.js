@@ -12,10 +12,10 @@ function MezcalCard({mezcal}) {
         <p>{mezcal.price}</p>
 
         <Image
-          src={`${mezcal.image}`}
+          src={mezcal.image}
           width="150"
           height="150"
-          alt="an image"
+          alt="Bottle of Mezcal"
         />
 
         <StyledButton className="Add">Add</StyledButton>
