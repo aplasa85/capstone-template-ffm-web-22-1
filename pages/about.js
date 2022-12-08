@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Icon from "../public/Assets/Agave.jpg"
+import Icon from "../public/Assets/Agave.jpg";
 import styled from "styled-components";
 
 const about = () => {
@@ -60,7 +60,7 @@ const StyledArticle = styled.article`
   align-content: center;
   justify: right;
   padding: 10px;
-`
+`;
 
 const TheImage = styled(Image)`
   position: relative;

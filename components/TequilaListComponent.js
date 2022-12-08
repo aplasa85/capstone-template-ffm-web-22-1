@@ -6,8 +6,7 @@ import TequilaCard from "../components/TequilaCard";
 import styled from "styled-components";
 
 function Tequila({tequilaData}) {
-  
- return (
+  return (
     <>
       <Head>
         <div>
@@ -26,7 +25,12 @@ function Tequila({tequilaData}) {
           beverage of your convenience.
         </StyledParagraph>
 
-        <StyledImage src={Icon} width="310" height="255" alt="Bottle of Tequila" />
+        <StyledImage
+          src={Icon}
+          width="310"
+          height="255"
+          alt="Bottle of Tequila"
+        />
       </article>
 
       {tequilaData.map(tequilaInfo => {
