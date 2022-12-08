@@ -15,13 +15,13 @@ const MezcalCard = ({ mezcal }) => {
                 <p>{mezcal.rating}</p>
                 <p>{mezcal.price}</p>
         
-                    <img src={`${mezcal.id}`} width="150" height="150" alt="an image" />
+                    <img src={`${mezcal.image}`} width="150" height="150" alt="an image" />
             
 
 
-            <br/>
-                <button className='Add'>Add</button>
-                <button className= 'Remove'>Remove</button>
+        
+                <StyledButton className='Add'>Add</StyledButton>
+                <StyledButton className= 'Remove'>Remove</StyledButton>
               
             </StyledCard>
         </Link>
@@ -37,11 +37,11 @@ const StyledCard = styled.div`
 
 
     padding: 5px;
-    margin: 25px 250px;
+    margin: 25px 400px;
 
     border: 1px solid black;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     color:black;
   
     Link {
@@ -51,6 +51,12 @@ const StyledCard = styled.div`
     /*&:hover {
         background-color: #f5f5f5;
     }*/
+    `
+
+    const StyledButton = styled.button`
+    color: black;
+    padding: 10px;
+    margin: 20px;
     `
 
 export default MezcalCard

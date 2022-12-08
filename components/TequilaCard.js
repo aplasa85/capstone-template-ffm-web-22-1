@@ -37,8 +37,8 @@ const StyledCard = styled.div`
     margin: 25px 250px;
 
     border: 1px solid black;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     color:black;
   
     Link {
