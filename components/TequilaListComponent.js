@@ -27,7 +27,7 @@ function Tequila({tequilaData}) {
           beverage of your convenience.
         </StyledParagraph>
 
-        <StyledImage src={Icon} width="310" height="255" alt="an image" />
+        <StyledImage src={Icon} width="310" height="255" alt="Bottle of Tequila" />
       </article>
 
       {tequilaData.map(tequilaInfo => {
