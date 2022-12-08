@@ -6,9 +6,8 @@ import TequilaCard from "../components/TequilaCard";
 import styled from "styled-components";
 
 function Tequila({tequilaData}) {
-  console.log(tequilaData);
-
-  return (
+  
+ return (
     <>
       <Head>
         <div>

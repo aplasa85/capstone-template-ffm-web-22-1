@@ -1,6 +1,6 @@
 import React from "react";
-//import Head from "next/head";
-//import Icon from "../public/Assets/Agave.jpg"
+import Image from "next/image";
+import Icon from "../public/Assets/Agave.jpg"
 import styled from "styled-components";
 
 const about = () => {
@@ -14,6 +14,8 @@ const about = () => {
         Thank you for choosing us and we certainly hope you will find the
         beverage of your convenience.
       </StyledParagraph>
+
+      <TheImage src={Icon} width="310" height="255" alt="Agave plant" />
 
       <StyledArticle>
         Casa del Agave <br />
@@ -58,6 +60,14 @@ const StyledArticle = styled.article`
   align-content: center;
   justify: right;
   padding: 10px;
+`
+
+const TheImage = styled(Image)`
+  position: relative;
+  left: 850px;
+  bottom: 260px;
+  border: 1px solid black;
+  padding: 30px;
 `;
 
 export default about;
