@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 
 
@@ -15,7 +15,7 @@ const TequilaCard = ({ tequila }) => {
                 <p>{tequila.rating}</p>
                 <p>{tequila.price}</p>
         
-                    <img src={`${tequila.image}`} width="150" height="150" alt="an image" />
+                <Image src={`${tequila.image}`} width="150" height="150" alt="an image" />
             
                 <button className='Add'>Add</button>
                 <button className= 'Remove'>Remove</button>

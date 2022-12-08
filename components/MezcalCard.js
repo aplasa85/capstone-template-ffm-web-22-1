@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 
 
@@ -15,7 +15,7 @@ const MezcalCard = ({ mezcal }) => {
                 <p>{mezcal.rating}</p>
                 <p>{mezcal.price}</p>
         
-                    <img src={`${mezcal.image}`} width="150" height="150" alt="an image" />
+                    <Image src={`${mezcal.image}`} width="150" height="150" alt="an image" />
             
 
 

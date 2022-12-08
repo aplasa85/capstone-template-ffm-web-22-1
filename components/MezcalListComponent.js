@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image"
 import Icon from "../public/Assets/Agave.jpg"
 import MezcalCard from "../components/MezcalCard";
-import styled from "styled-components"
+
 //import Link from "next/link";
 
 
@@ -84,17 +84,4 @@ const Mezcal = ({mezcalData}) => {
   padding: 20px;
   margin-left: 575px;`
   
-  const StyledCard = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
   
-    padding: 5px;
-    margin: 15px 15px;
-  
-    border: 1px solid black;
-    width: 350px;
-    height: 350px;
-    color:black;`
