@@ -5,7 +5,6 @@ import Icon from "../public/Assets/Agave.jpg";
 import MezcalCard from "../components/MezcalCard";
 import styled from "styled-components";
 
-
 const Mezcal = ({mezcalData}) => {
   return (
     <div>

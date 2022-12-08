@@ -2,7 +2,6 @@ import {OctopusCard} from "./OctopusCard";
 const Story = {
   title: "Examples/OctopusCard",
   component: OctopusCard,
-
 };
 
 const Template = args => <OctopusCard {...args} />;
