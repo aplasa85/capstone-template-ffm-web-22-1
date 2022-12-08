@@ -11,7 +11,7 @@ export default function Layout({children}) {
         <StyledSearch className="menu2">Search</StyledSearch>
       </StyledNav>
 
-      <main>{children}</main>
+      {children}
 
       <StyledFooter>
         <p>© Casa del Agave</p>
