@@ -3,10 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg"
 import TequilaCard from "../components/TequilaCard";
-import styled from "styled-components"
-//import Link from "next/link";
+import styled from "styled-components";
 
-const Tequila = ({tequilaData}) => {
+
+function Tequila ({tequilaData}) {
 
     console.log(tequilaData);
     
@@ -43,7 +43,7 @@ const Tequila = ({tequilaData}) => {
     
       
     
-        <TheImage src={Icon} width="310" height="255" alt="an image" />
+        <StyledImage src={Icon} width="310" height="255" alt="an image" />
     
         </article>
     
@@ -67,7 +67,7 @@ const Tequila = ({tequilaData}) => {
     align-content: center;
     padding: 10px;`
     
-    const TheImage = styled(Image)`
+    const StyledImage = styled(Image)`
         position: relative;
         left: 850px;
         bottom:260px;
@@ -93,20 +93,5 @@ const Tequila = ({tequilaData}) => {
     margin-top: 70px;
     `
     
-    const StyledCard = styled.div`
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
     
-      padding: 5px;
-      margin: 15px 15px;
-    
-      border: 1px solid black;
-      width: 350px;
-      height: 350px;
-      color:black;`
-    
-      
  

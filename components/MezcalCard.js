@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 
-const MezcalCard = ({ mezcal }) => {
+function MezcalCard ({ mezcal }) {
     return (
         <Link href="/article/[id]" as={`/article/${mezcal.id}`}>
             <StyledCard>
@@ -15,11 +15,9 @@ const MezcalCard = ({ mezcal }) => {
                 <p>{mezcal.rating}</p>
                 <p>{mezcal.price}</p>
         
-                    <Image src={`${mezcal.image}`} width="150" height="150" alt="an image" />
+                <Image src={`${mezcal.image}`} width="150" height="150" alt="an image" />
             
 
-
-        
                 <StyledButton className='Add'>Add</StyledButton>
                 <StyledButton className= 'Remove'>Remove</StyledButton>
               
@@ -33,8 +31,6 @@ const StyledCard = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
-
 
     padding: 5px;
     margin: 25px 400px;

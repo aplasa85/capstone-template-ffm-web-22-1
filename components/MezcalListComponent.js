@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image"
 import Icon from "../public/Assets/Agave.jpg"
 import MezcalCard from "../components/MezcalCard";
-
+import styled from "styled-components";
 //import Link from "next/link";
 
 

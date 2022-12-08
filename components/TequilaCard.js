@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 
-const TequilaCard = ({ tequila }) => {
+function TequilaCard ({ tequila }) {
     return (
         <Link href="/article/[id]" as={`/article/${tequila.id}`}>
             <StyledCard>
