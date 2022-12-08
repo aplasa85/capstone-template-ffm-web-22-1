@@ -1,16 +1,8 @@
-import React from 'react'
+import React from "react";
 //import styled from "styled-components";
 
 const Header = () => {
-    return (
-        <div>
+  return <div></div>;
+};
 
-        </div>
-    )
-
-}
-
-
-
-
-export default Header 
+export default Header;
