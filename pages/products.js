@@ -1,23 +1,15 @@
 import styled from "styled-components";
 
-function Products () {
-return (
-    
-<div>
+function Products() {
+  return (
+    <div>
       <StyledTitle>Casa del Agave</StyledTitle>
       <h2>Hallo</h2>
-   </div>
-   
-
-    
-
-
-);
-
+    </div>
+  );
 }
 
-
-export default  Products;
+export default Products;
 
 const StyledTitle = styled.h1`
   border: 1px solid black;
