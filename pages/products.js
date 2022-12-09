@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import TequilaCard from "../components/TequilaCard";
+
 
 function Products () {
 return (
     
 <div>
       <StyledTitle>Casa del Agave</StyledTitle>
+
+<h2>${(Tequila.brand)}</h2>
+
+
 
    </div>  
     
