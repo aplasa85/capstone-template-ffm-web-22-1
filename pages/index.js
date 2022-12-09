@@ -5,7 +5,7 @@ import Icon from "../public/Assets/Agave.jpg";
 const Home = () => {
   return (
     <div>
-      <StyledTitle>Casa del Agave</StyledTitle>
+      <StyledTitle>Casa del Agave.</StyledTitle>
 
       <ul>
         <StyledLink>Tequila</StyledLink>
