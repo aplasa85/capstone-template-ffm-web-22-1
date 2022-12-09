@@ -5,10 +5,10 @@ return (
     
 <div>
       <StyledTitle>Casa del Agave</StyledTitle>
-
+      <h2>Hallo</h2>
    </div>
    
-   <h2>${()}</h2>
+
     
 
 
