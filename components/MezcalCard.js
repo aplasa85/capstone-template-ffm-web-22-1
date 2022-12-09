@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function MezcalCard({mezcal}) {
   return (
-    <Link href="/products/[ProductsId]" as={`/products/${mezcal.id}`}>
+    <Link href="/Products/[ProductId]" as={`/Products/${mezcal.id}`}>
       <StyledCard>
         <h3> {mezcal.brand} &rarr; </h3>
         <p>{mezcal.type}</p>

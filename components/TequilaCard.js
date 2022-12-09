@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function TequilaCard({tequila}) {
   return (
-    <Link href="/products/[ProductId]" as={`/products/${tequila.id}`}>
+    <Link href="/Products/[ProductId]" as={`/Products/${tequila.id}`}>
       <StyledCard>
         <h3> {tequila.brand} &rarr; </h3>
         <p>{tequila.type}</p>

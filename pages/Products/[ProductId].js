@@ -1,10 +1,11 @@
-import Router from "next/router"
+import { useRouter } from "next/router"
 
-function Products () {
+function ProductDetails () {
+        
     return (
-        <p>Random</p>
+        <h1>Random</h1>
+
     )
+}
 
-    }
-
-    export default Products
+    export default ProductDetails
