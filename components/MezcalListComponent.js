@@ -4,6 +4,7 @@ import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
 import MezcalCard from "../components/MezcalCard";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Mezcal = ({mezcalData}) => {
   return (
@@ -12,7 +13,7 @@ const Mezcal = ({mezcalData}) => {
         <title>Mezcal</title>
       </Head>
       <>
-        <StyledTitle>Casa del Agave</StyledTitle>
+      <Link href="/"><StyledTitle>Casa del Agave</StyledTitle></Link>
         <StyledTitle1>Mezcal</StyledTitle1>
 
         <StyledParagraph>
@@ -70,3 +71,7 @@ const StyledTitle1 = styled.h2`
   padding: 20px;
   margin-left: 575px;
 `;
+
+const StyledLink = styled.link`
+color: black
+`

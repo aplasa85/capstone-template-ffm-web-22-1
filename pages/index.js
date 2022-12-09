@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -8,8 +9,8 @@ const Home = () => {
       <StyledTitle>Casa del Agave</StyledTitle>
 
       <ul>
-        <StyledLink>Tequila</StyledLink>
-        <StyledLink>Mezcal</StyledLink>
+        <Link href="/tequila"><StyledLink>Tequila</StyledLink></Link>
+        <Link href="/mezcal"><StyledLink>Mezcal</StyledLink></Link>
       </ul>
 
       <StyledParagraph>
@@ -61,3 +62,4 @@ const TheImage = styled(Image)`
   border: 1px solid black;
   padding: 30px;
 `;
+

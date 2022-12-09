@@ -4,6 +4,7 @@ import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
 import TequilaCard from "../components/TequilaCard";
 import styled from "styled-components";
+import Link from "next/link";
 
 function Tequila({tequilaData}) {
   return (
@@ -14,7 +15,7 @@ function Tequila({tequilaData}) {
         </div>
       </Head>
 
-      <StyledTitle>Casa del Agave</StyledTitle>
+      <Link href="/"><StyledTitle>Casa del Agave</StyledTitle></Link>
       <StyledTitle1>Tequila</StyledTitle1>
 
       <article>
@@ -77,4 +78,11 @@ const StyledTitle = styled.h1`
   padding-left: 75px;
   margin-left: 32%;
   margin-top: 70px;
+  text-decoration: none;
+  color: black;
+`;
+
+const StyledLink = styled.link`
+text-decoration: none;
+color: black;
 `;
