@@ -12,7 +12,7 @@ function TequilaCard({tequila}) {
         <p>{tequila.price}</p>
 
         <Image
-          src={`${tequila.image}`}
+          src={tequila.image}
           width="150"
           height="150"
           alt="Bottle of Tequila"
