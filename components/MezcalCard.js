@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
+import StyledCard from "./StyledCard";
 
 function MezcalCard({mezcal}) {
   return (
@@ -24,29 +25,7 @@ function MezcalCard({mezcal}) {
     </Link>
   );
 }
-const StyledCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 
-  padding: 5px;
-  margin: 25px 400px;
-
-  border: 1px solid black;
-  width: 450px;
-  height: 450px;
-  color: black;
-
-  Link {
-    text-decoration: none;
-  }
-
-  /*&:hover {
-        background-color: #f5f5f5;
-    }*/
-`;
 
 const StyledButton = styled.button`
   color: black;
