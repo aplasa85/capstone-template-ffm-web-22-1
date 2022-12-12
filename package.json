@@ -24,14 +24,15 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
     "@storybook/addon-actions": "^6.5.13",
-    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.5.13",
     "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-webpack5": "^6.5.13",
     "@storybook/manager-webpack5": "^6.5.13",
-    "@storybook/react": "^6.5.13",
+    "@storybook/react": "^6.1.21",
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -44,6 +45,7 @@
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "next-images": "^1.8.4",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.0",
+    "webpack": "^5.75.0"
   }
 }
