@@ -2,10 +2,14 @@ import Image from "next/image";
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg";
 import Link from "next/link";
+import SearchBar from "../pages/searchBar"
+import { SearchSource } from "jest";
 
 const Home = () => {
   return (
     <div>
+      <SearchBar />
+
       <StyledTitle>Casa del Agave</StyledTitle>
 
       <ul>

@@ -1,16 +1,33 @@
 import React from "react"
 import styled from "styled-components";
 import Link from "next/link";
+import Tequila from "../../components/TequilaListComponent";
+import Image from "next/image";
+import tequilaData from "../../_data/TequilaList.json";
+import TequilaList from "../../components/TequilaCard";
 
 
-function ProductDetails  ({ProductDetails})  {
-return (
+
+function ProductDetails  ()  {
+
+
+    return (
 
 <>
 <Link href="/"><StyledTitle>Casa del Agave</StyledTitle></Link>
 
-<p>Hallo!  </p>
 
+ {tequilaData["id"] && 
+ tequilaData.map (tequila => <>
+    {tequila.brand}
+    {tequila.rating}
+    {tequila.price}
+    {tequila.image}
+    </>)  }
+ 
+    
+    
+ 
 
 <StyledButton>Add to basket</StyledButton> 
 
@@ -30,4 +47,6 @@ margin-left: 32%;
 `;
 
 const StyledButton = styled.button`
-padding: 10px`;
+padding: 10px
+align-item: 40%;
+`;
