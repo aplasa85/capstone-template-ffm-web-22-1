@@ -82,7 +82,3 @@ const StyledTitle = styled.h1`
   color: black;
 `;
 
-const StyledLink = styled.link`
-text-decoration: none;
-color: black;
-`;
