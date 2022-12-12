@@ -26,7 +26,6 @@ function MezcalCard({mezcal}) {
   );
 }
 
-
 const StyledButton = styled.button`
   color: black;
   padding: 10px;
