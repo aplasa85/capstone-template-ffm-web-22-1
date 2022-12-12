@@ -4,8 +4,6 @@ const GlobalStyles = createGlobalStyle`
     html,
     body {
         padding: 0;
-        
-        
         margin: 0;
         background-color: beige;
         color: black; 
@@ -14,6 +12,8 @@ const GlobalStyles = createGlobalStyle`
     * {
         box-sizing: border-box;
     }
+
+        }
 `;
 
 export default GlobalStyles;

@@ -1,16 +1,22 @@
-import React from "react";
-import Head from "next/head";
+import styled from "styled-components";
 
-const products = () => {
+function Products() {
   return (
     <div>
-      <Head>
-        <title>Product</title>
-      </Head>
-
-      <h1>Product</h1>
+      <StyledTitle>Casa del Agave</StyledTitle>
+      <h2>Hallo</h2>
     </div>
   );
-};
+}
 
-export default products;
+export default Products;
+
+const StyledTitle = styled.h1`
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  padding: 55px;
+  padding-left: 75px;
+  margin-left: 32%;
+  margin-top: 70px;
+`;
