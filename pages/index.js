@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg";
 import Link from "next/link";
 import SearchBar from "../pages/searchBar";
-import {SearchSource} from "jest";
+
 
 const Home = () => {
   return (
