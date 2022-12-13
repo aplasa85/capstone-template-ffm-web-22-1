@@ -15,7 +15,9 @@ function Tequila({tequilaData}) {
         </div>
       </Head>
 
-      <Link href="/"><StyledTitle>Casa del Agave</StyledTitle></Link>
+      <Link href="/">
+        <StyledTitle>Casa del Agave</StyledTitle>
+      </Link>
       <StyledTitle1>Tequila</StyledTitle1>
 
       <article>
@@ -81,4 +83,3 @@ const StyledTitle = styled.h1`
   text-decoration: none;
   color: black;
 `;
-

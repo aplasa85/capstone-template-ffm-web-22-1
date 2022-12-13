@@ -13,7 +13,9 @@ const Mezcal = ({mezcalData}) => {
         <title>Mezcal</title>
       </Head>
       <>
-      <Link href="/"><StyledTitle>Casa del Agave</StyledTitle></Link>
+        <Link href="/">
+          <StyledTitle>Casa del Agave</StyledTitle>
+        </Link>
         <StyledTitle1>Mezcal</StyledTitle1>
 
         <StyledParagraph>
@@ -73,5 +75,5 @@ const StyledTitle1 = styled.h2`
 `;
 
 const StyledLink = styled.link`
-color: black
-`
+  color: black;
+`;

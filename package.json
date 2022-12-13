@@ -17,6 +17,7 @@
   "dependencies": {
     "mongoose": "^6.7.3",
     "next": "^13.0.5",
+    "plugin": "^0.3.3",
     "react": "18.2.0",
     "react-burger-menu": "^3.0.8",
     "react-dom": "18.2.0",
@@ -24,8 +25,6 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
-    "@babel/preset-env": "^7.20.2",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.5.13",
@@ -37,7 +36,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "babel-loader": "^8.3.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.4",
     "eslint-plugin-jest": "^27.1.6",

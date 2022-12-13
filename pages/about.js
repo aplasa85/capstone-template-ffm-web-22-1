@@ -50,8 +50,8 @@ const StyledParagraph = styled.p`
 `;
 
 const StyledArticle = styled.article`
-border: 1px solid black;  
-display: flex;
+  border: 1px solid black;
+  display: flex;
   order: 1px solid black;
   width: 300px;
   height: 235px;

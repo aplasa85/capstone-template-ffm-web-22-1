@@ -2,8 +2,8 @@ import Image from "next/image";
 import styled from "styled-components";
 import Icon from "../public/Assets/Agave.jpg";
 import Link from "next/link";
-import SearchBar from "../pages/searchBar"
-import { SearchSource } from "jest";
+import SearchBar from "../pages/searchBar";
+import {SearchSource} from "jest";
 
 const Home = () => {
   return (
@@ -13,8 +13,12 @@ const Home = () => {
       <StyledTitle>Casa del Agave</StyledTitle>
 
       <ul>
-        <Link href="/tequila"><StyledLink>Tequila</StyledLink></Link>
-        <Link href="/mezcal"><StyledLink>Mezcal</StyledLink></Link>
+        <Link href="/tequila">
+          <StyledLink>Tequila</StyledLink>
+        </Link>
+        <Link href="/mezcal">
+          <StyledLink>Mezcal</StyledLink>
+        </Link>
       </ul>
 
       <StyledParagraph>
@@ -66,4 +70,3 @@ const TheImage = styled(Image)`
   border: 1px solid black;
   padding: 30px;
 `;
-
