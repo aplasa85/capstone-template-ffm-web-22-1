@@ -1,9 +1,15 @@
 import React from "react";
-import tequilaData from "../_data/ProductList.json";
+import productList from "../_data/ProductList.json";
 import TequilaListComponent from "../components/TequilaListComponent";
 
 function TequilaPage() {
-  return <TequilaListComponent tequilaData={tequilaData} />;
+  return (
+    <TequilaListComponent
+      tequilaData={productList.filter(product => {
+        return product.category === "Tequila";
+      })}
+    />
+  );
 }
 
 export default TequilaPage;
