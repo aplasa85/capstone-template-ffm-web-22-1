@@ -1,8 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import {useRouter} from "next/router";
 import tequilaData from "../../_data/productList.json";
-export default ProductDetails;
+import StyledCard from "../../components/StyledCard";
 
 function ProductDetails() {
   const router = useRouter();
@@ -11,10 +10,13 @@ function ProductDetails() {
   const tequila = tequilaData.find(t => {
     return t.id === productId;
   });
-  return (
-    <>
-      <h1>Product Detail Page </h1>
-      {JSON.stringify(tequila)}
-    </>
-  );
+
+  {
+    <h1>{tequilaData.price} </h1>;
+    {
+      JSON.stringify(tequila);
+    }
+  }
 }
+
+export default ProductDetails;

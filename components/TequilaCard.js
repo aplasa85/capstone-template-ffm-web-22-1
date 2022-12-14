@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
 import "../_data/productList.json";
-
+import StyledCard from "./StyledCard";
 function TequilaCard({tequila}) {
   return (
     <Link href="/products/[productId]" as={`/products/${tequila.id}`}>
@@ -25,28 +25,5 @@ function TequilaCard({tequila}) {
     </Link>
   );
 }
-const StyledCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  padding: 5px;
-  margin: 25px 400px;
-
-  border: 1px solid black;
-  width: 450px;
-  height: 450px;
-  color: black;
-
-  Link {
-    text-decoration: none;
-  }
-
-  /*&:hover {
-        background-color: #f5f5f5;
-    }*/
-`;
 
 export default TequilaCard;
