@@ -4,7 +4,6 @@ import Icon from "../public/Assets/Agave.jpg";
 import Link from "next/link";
 import SearchBar from "../pages/searchBar";
 
-
 const Home = () => {
   return (
     <div>

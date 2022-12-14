@@ -1,9 +1,9 @@
 import React from "react";
-import Mezcal from "../components/MezcalListComponent";
-import mezcalData from "../_data/MezcalList.json";
+import MezcalListComponent from "../components/MezcalListComponent";
+import mezcalData from "../_data/ProductList.json";
 
 function MezcalPage() {
-  return <Mezcal mezcalData={mezcalData} />;
+  return <MezcalListComponent mezcalData={mezcalData} />;
 }
 
 export default MezcalPage;

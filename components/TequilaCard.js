@@ -1,10 +1,11 @@
 import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
+import "../_data/productList.json";
 
 function TequilaCard({tequila}) {
   return (
-    <Link href="/Products/[ProductId]" as={`/Products/${tequila.id}`}>
+    <Link href="/products/[productId]" as={`/products/${tequila.id}`}>
       <StyledCard>
         <h3> {tequila.brand} &rarr; </h3>
         <p>{tequila.type}</p>
