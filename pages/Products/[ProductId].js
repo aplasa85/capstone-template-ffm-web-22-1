@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import {useRouter} from "next/router";
-import tequilaData from "../../_data/ProductList.json";
+import tequilaData from "../../_data/productList.json";
+export default ProductDetails;
 
 function ProductDetails() {
   const router = useRouter();
@@ -12,10 +13,8 @@ function ProductDetails() {
   });
   return (
     <>
-      <h1>Ich bin die Product Detail Page </h1>
-      product: {JSON.stringify(tequila)}
+      <h1>Product Detail Page </h1>
+      {JSON.stringify(tequila)}
     </>
   );
 }
-
-export default ProductDetails;
