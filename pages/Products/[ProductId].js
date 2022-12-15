@@ -2,7 +2,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import products from "../../_data/productList.json";
 import Image from "next/image";
-//import Pic from "../public/Assets/${product.image}";
+//import Pic from "../public/Assets/${product.image.id}";
 import StyledCard from "../../components/StyledCard";
 import styled from "styled-components";
 import Link from "next/link";
@@ -43,12 +43,13 @@ function ProductDetails() {
 
             <StyledButton>Add to Basket</StyledButton>
           </StyledBox>
-          {/* <StyledImage
-            src="Pic"
-            width="310px"
-            height="255px"
-            alt="Bottle of Mezcal or Tequila" */}
-          {/* /> */}
+
+          <StyledImage
+            src={product.image}
+            width="150"
+            height="150"
+            alt="Bottle of Mezcal"
+          />
         </>
       )}
     </>
@@ -67,9 +68,15 @@ const StyledTitle = styled.h1`
   margin-top: 70px;
 `;
 
-// const StyledImage = styled(Image)`
-//   border: 1px solid black;
-// `;
+const StyledImage = styled(Image)`
+  border: 1px solid black;
+  height: 260px;
+  width 260px;
+  padding: 20px;
+  margin-left: 60%;
+  margin-bottom: 30%;
+  margin-top: -32%;
+`;
 
 const StyledBox = styled.div`
   border: 1px solid black;
