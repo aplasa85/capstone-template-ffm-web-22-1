@@ -2,7 +2,11 @@ import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
 import "../_data/productList.json";
-import StyledCard from "./StyledCard";
+import StyledCard from "./StyledCard.js";
+
+// const bookmarked = () => {
+//   toggleBookmarked();
+// };
 
 function MezcalCard({mezcal}) {
   return (
@@ -20,17 +24,12 @@ function MezcalCard({mezcal}) {
           alt="Bottle of Mezcal"
         />
 
-        <StyledButton className="Add">Add</StyledButton>
-        <StyledButton className="Remove">Remove</StyledButton>
+        <button className="Add">Add</button>
+        <button className="Remove">Remove</button>
+        <button>Favorite</button>
       </StyledCard>
     </Link>
   );
 }
-
-const StyledButton = styled.button`
-  color: black;
-  padding: 10px;
-  margin: 20px;
-`;
 
 export default MezcalCard;

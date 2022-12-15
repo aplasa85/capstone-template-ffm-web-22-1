@@ -5,7 +5,6 @@ export default function Layout({children}) {
   return (
     <>
       <StyledNav>
-        <Header />
         <StyledMenu className="menu1">Menu</StyledMenu>
         <StyledInput />
         <StyledSearch className="menu2">Search</StyledSearch>

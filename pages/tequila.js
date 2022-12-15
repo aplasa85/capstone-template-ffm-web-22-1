@@ -1,15 +1,30 @@
 import React from "react";
 import productList from "../_data/ProductList.json";
 import TequilaListComponent from "../components/TequilaListComponent";
+import Header from "../components/Header";
+import styled from "styled-components";
 
 function TequilaPage() {
   return (
-    <TequilaListComponent
-      tequilaData={productList.filter(product => {
-        return product.category === "Tequila";
-      })}
-    />
+    <>
+      <Header />
+      <StyledTitle>Tequila</StyledTitle>
+      <TequilaListComponent
+        tequilaData={productList.filter(product => {
+          return product.category === "Tequila";
+        })}
+      />
+    </>
   );
 }
 
 export default TequilaPage;
+
+const StyledTitle = styled.h2`
+  border: 1px solid black;
+  color: black;
+  width: 130px;
+  height: 50px;
+  margin-top: auto;
+  margin-left: 550px;
+`;

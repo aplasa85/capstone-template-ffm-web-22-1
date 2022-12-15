@@ -5,11 +5,34 @@ import Icon from "../public/Assets/Agave.jpg";
 import MezcalCard from "../components/MezcalCard";
 import styled from "styled-components";
 import Link from "next/link";
+import Header from "../components/Header";
 
-const Mezcal = ({mezcalData}) => {
+function Mezcal({mezcalData}) {
   return (
-    <div>
-      <Head>
+    <>
+      {mezcalData &&
+        mezcalData.map(mezcalInfo => (
+          <MezcalCard key={mezcalInfo.id} mezcal={mezcalInfo} />
+        ))}
+    </>
+  );
+}
+
+export default Mezcal;
+
+// import React from "react";
+// import Head from "next/head";
+// import Image from "next/image";
+// import Icon from "../public/Assets/Agave.jpg";
+// import MezcalCard from "../components/MezcalCard";
+// import styled from "styled-components";
+// import Link from "next/link";
+
+// const Mezcal = ({mezcalData}) => {
+//   return (
+//     <div>
+{
+  /* <Head>
         <title>Mezcal</title>
       </Head>
       <>
@@ -76,4 +99,5 @@ const StyledTitle1 = styled.h2`
 
 const StyledLink = styled.link`
   color: black;
-`;
+`; */
+}

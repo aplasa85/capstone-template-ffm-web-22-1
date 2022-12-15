@@ -16,4 +16,10 @@ const StyledCard = styled.div`
   color: black;
 `;
 
+const StyledButton = styled.button`
+  color: black;
+  padding: 10px;
+  margin: 20px;
+`;
+
 export default StyledCard;

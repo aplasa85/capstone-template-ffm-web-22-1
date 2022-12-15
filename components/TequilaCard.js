@@ -2,7 +2,8 @@ import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
 import "../_data/productList.json";
-import StyledCard from "./StyledCard";
+import StyledCard from "./StyledCard.js";
+
 function TequilaCard({tequila}) {
   return (
     <Link href="/products/[productId]" as={`/products/${tequila.id}`}>
@@ -21,6 +22,7 @@ function TequilaCard({tequila}) {
 
         <button className="Add">Add</button>
         <button className="Remove">Remove</button>
+        <button>Favorite</button>
       </StyledCard>
     </Link>
   );
