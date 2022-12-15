@@ -2,6 +2,7 @@ import React from "react";
 import {useRouter} from "next/router";
 import products from "../../_data/productList.json";
 import Image from "next/image";
+//import Pic from "../public/Assets/${product.image}";
 import StyledCard from "../../components/StyledCard";
 import styled from "styled-components";
 import Link from "next/link";
@@ -22,11 +23,32 @@ function ProductDetails() {
 
       {product && (
         <>
-          <div>
-            {product.brand},{product.type}, {product.rating},{product.price},
-            {product.Image}{" "}
-          </div>
-          <button>Add to Basket</button>
+          <StyledBox>
+            <ul>
+              <StyledLine>
+                <li>Brand: {product.brand}</li>
+              </StyledLine>
+              <StyledLine>
+                <li>Type: {product.type}</li>
+              </StyledLine>
+              ,
+              <StyledLine>
+                <li>Rating: {product.rating}</li>
+              </StyledLine>
+              ,
+              <StyledLine>
+                <li> Price: {product.price}</li>
+              </StyledLine>
+            </ul>
+
+            <StyledButton>Add to Basket</StyledButton>
+          </StyledBox>
+          {/* <StyledImage
+            src="Pic"
+            width="310px"
+            height="255px"
+            alt="Bottle of Mezcal or Tequila" */}
+          {/* /> */}
         </>
       )}
     </>
@@ -45,6 +67,31 @@ const StyledTitle = styled.h1`
   margin-top: 70px;
 `;
 
+// const StyledImage = styled(Image)`
+//   border: 1px solid black;
+// `;
+
 const StyledBox = styled.div`
   border: 1px solid black;
+  align-content: column;
+  height: 360px;
+  width: 360px;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-decoration none;
+`;
+
+const StyledLine = styled.li`
+  text-size: 90px;
+  color: superblack;
+  margin-left: 25%;
+  margin-top: 10%;
+  font-size: larger;
+`;
+
+const StyledButton = styled.button`
+  padding: 15px;
+  margin-left: 30%;
+  margin-top: 5%;
 `;
