@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
-import StyledCard from "./StyledCard.js";
 import styled from "styled-components";
 import Head from "next/head";
 import Link from "next/link";
@@ -58,16 +57,4 @@ const StyledParagraph = styled.p`
   font-size: 20px;
   align-content: center;
   padding: 10px;
-`;
-
-const StyledTitle1 = styled.h2`
-  border: 1px solid black;
-  height: 65px;
-  width: 150px;
-  padding: 20px;
-  margin-left: 575px;
-`;
-
-const StyledLink = styled.link`
-  color: black;
 `;

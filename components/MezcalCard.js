@@ -1,12 +1,7 @@
 import Link from "next/link";
-import styled from "styled-components";
 import Image from "next/image";
 import "../_data/productList.json";
 import StyledCard from "./StyledCard.js";
-
-// const bookmarked = () => {
-//   toggleBookmarked();
-// };
 
 function MezcalCard({mezcal}) {
   return (

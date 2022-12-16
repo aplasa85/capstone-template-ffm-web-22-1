@@ -2,8 +2,6 @@ import React from "react";
 import {useRouter} from "next/router";
 import products from "../../_data/productList.json";
 import Image from "next/image";
-//import Pic from "../public/Assets/${product.image.id}";
-import StyledCard from "../../components/StyledCard";
 import styled from "styled-components";
 import Link from "next/link";
 
