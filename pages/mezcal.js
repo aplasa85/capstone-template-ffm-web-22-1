@@ -1,6 +1,6 @@
 import React from "react";
 import MezcalListComponent from "../components/MezcalListComponent";
-import productList from "../_data/ProductList.json";
+import productList from "../_data/productList.json";
 import Header from "../components/Header";
 import styled from "styled-components";
 
