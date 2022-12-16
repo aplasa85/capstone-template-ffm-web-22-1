@@ -1,4 +1,3 @@
-//import Head from "next/head";
 import GlobalStyles from "../styles/GlobalStyles";
 import Layout from "../components/LayoutComponent";
 

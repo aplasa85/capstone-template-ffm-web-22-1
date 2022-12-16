@@ -2,7 +2,6 @@ import {OctopusCard} from "./OctopusCard";
 const Story = {
   title: "Examples/OctopusCard",
   component: OctopusCard,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 };
 
 const Template = args => <OctopusCard {...args} />;
