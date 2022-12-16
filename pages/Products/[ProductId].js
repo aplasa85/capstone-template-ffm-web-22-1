@@ -41,15 +41,15 @@ function ProductDetails() {
               </StyledLine>
             </ul>
 
+            <StyledImage
+              src={product.image}
+              width="150"
+              height="150"
+              alt="Bottle of Mezcal"
+            />
+
             <StyledButton>Add to Basket</StyledButton>
           </StyledBox>
-
-          <StyledImage
-            src={product.image}
-            width="150"
-            height="150"
-            alt="Bottle of Mezcal"
-          />
         </>
       )}
     </>
@@ -63,36 +63,44 @@ const StyledTitle = styled.h1`
   width: 400px;
   height: 150px;
   padding: 55px;
-  padding-left: 75px;
-  margin-left: 32%;
-  margin-top: 70px;
+  padding-left: 85px;
+  margin-left: 35%;
+  margin-top: 7%;
+  margin-bottom: 20px;
 `;
 
 const StyledImage = styled(Image)`
-  border: 1px solid black;
-  height: 260px;
-  width 260px;
+  order: 1px solid black;
+  margin-left: 175%;
   padding: 20px;
-  margin-left: 60%;
-  margin-bottom: 30%;
-  margin-top: -32%;
+  height: 240px;
+  width: 240px;
+  margin-top: -55%;
 `;
 
 const StyledBox = styled.div`
-  border: 1px solid black;
-  align-content: column;
-  height: 360px;
+height: 360px;
   width: 360px;
   margin-left: 15%;
-  margin-bottom: 10%;
-  margin-top: 10%;
+   margin-bottom: 20%;
+   border: 1px solid black;
+   padding: 10px;
+   -webkit-align-content: column;
+   -ms-flex-line-pack: column;
+   align-content: column;
+   height: 360px;
+   width: 360px;
+   margin-bottom: 20%;
+   -webkit-text-decoration: none;
+   text-decoration: none;
+   margin-top: 15%;
   text-decoration none;
 `;
 
 const StyledLine = styled.li`
   text-size: 90px;
   color: superblack;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 10%;
   font-size: larger;
 `;
@@ -100,5 +108,5 @@ const StyledLine = styled.li`
 const StyledButton = styled.button`
   padding: 15px;
   margin-left: 30%;
-  margin-top: 5%;
+  margin-top: 25%;
 `;
