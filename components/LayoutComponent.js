@@ -1,26 +1,48 @@
-//import { redirect } from "next/dist/server/api-utils"
 import styled from "styled-components";
 
 export default function Layout({children}) {
   return (
     <>
       <StyledNav>
-        <header>
-          <button className="menu">Menu</button>
-          <input />
-          <button className="menu">Search</button>
-        </header>
+        <StyledMenu className="menu1">Menu</StyledMenu>
+        <StyledInput />
+        <StyledSearch className="menu2">Search</StyledSearch>
       </StyledNav>
 
-      <main>{children}</main>
+      {children}
+
+      <StyledFooter>
+        <p>© Casa del Agave</p>
+      </StyledFooter>
     </>
   );
 }
 
 const StyledNav = styled.nav`
-  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 15px;
+`;
 
+const StyledFooter = styled.footer`
+  background-color: grey;
+  color: white;
+  height: 60px;
+  padding: 15px;
+  padding-top: 8px;
   width: 100%;
-  padding: 20px;
-  align-content: space-evenly;
+`;
+
+const StyledMenu = styled.button`
+  margin-right: 550px;
+  padding: 5px;
+`;
+
+const StyledInput = styled.input`
+  margin-right: 20px;
+`;
+
+const StyledSearch = styled.button`
+  padding: 5px;
 `;

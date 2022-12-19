@@ -8,7 +8,7 @@ const search = () => {
         <title>Search</title>
       </Head>
 
-      <h1>Search</h1>
+      <h1>SearchBar</h1>
     </div>
   );
 };

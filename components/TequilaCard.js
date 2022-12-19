@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import StyledCard from "./StyledCard";
+import "../_data/productList.json";
+import StyledCard from "./StyledCard.js";
 
 function TequilaCard({tequila}) {
   return (
-    <Link href="/article/[id]" as={`/article/${tequila.id}`}>
+    <Link href="/products/[productId]" as={`/products/${tequila.id}`}>
       <StyledCard>
         <h3> {tequila.brand} &rarr; </h3>
         <p>{tequila.type}</p>
@@ -12,7 +13,7 @@ function TequilaCard({tequila}) {
         <p>{tequila.price}</p>
 
         <Image
-          src={`${tequila.image}`}
+          src={tequila.image}
           width="150"
           height="150"
           alt="Bottle of Tequila"
@@ -20,6 +21,7 @@ function TequilaCard({tequila}) {
 
         <button className="Add">Add</button>
         <button className="Remove">Remove</button>
+        <button>Favorite</button>
       </StyledCard>
     </Link>
   );

@@ -14,10 +14,6 @@ const StyledCard = styled.div`
   width: 450px;
   height: 450px;
   color: black;
-
-  Link {
-    text-decoration: none;
-  }
 `;
 
 export default StyledCard;
