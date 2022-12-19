@@ -55,8 +55,8 @@ const StyledArticle = styled.article`
   order: 1px solid black;
   width: 300px;
   height: 235px;
-  margin-top: 100px;
-  margin-left: 150px;
+  margin-bottom: 15%;
+  margin-left: 35%;
   font-size: 20px;
   align-content: center;
   justify: right;

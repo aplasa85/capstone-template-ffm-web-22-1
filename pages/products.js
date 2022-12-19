@@ -4,7 +4,10 @@ function Products() {
   return (
     <div>
       <StyledTitle>Casa del Agave</StyledTitle>
-      <h2>Hallo</h2>
+      <h2>
+        The product you are looking for is currently unavailable. We apologise
+        for any inconvenience.
+      </h2>
     </div>
   );
 }

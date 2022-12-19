@@ -27,6 +27,6 @@ const StyledLink = styled.li`
   border: 1px solid black;
   text-decoration: none;
 
-  padding: 10px;
+  padding: 5px;
   margin: 20%;
 `;

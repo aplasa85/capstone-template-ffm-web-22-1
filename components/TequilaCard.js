@@ -2,8 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import "../_data/productList.json";
 import StyledCard from "./StyledCard.js";
+import {useState} from "react";
 
 function TequilaCard({tequila}) {
+  const [bookmarked, setBookmarked] = useState(false);
+
+  function handleClick() {
+    setBookmarked(bookmarked => !bookmarked);
+  }
+
   return (
     <Link href="/products/[productId]" as={`/products/${tequila.id}`}>
       <StyledCard>
@@ -21,7 +28,9 @@ function TequilaCard({tequila}) {
 
         <button className="Add">Add</button>
         <button className="Remove">Remove</button>
-        <button>Favorite</button>
+        <button className="favorite" onClick={handleClick}>
+          Favorite
+        </button>
       </StyledCard>
     </Link>
   );
