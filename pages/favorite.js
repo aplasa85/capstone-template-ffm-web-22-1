@@ -28,9 +28,7 @@ const favorite = ({favorites, setFavorites}) => {
 
             <button className="Add">Add</button>
             <button className="Remove">Remove</button>
-            {/* <button className="favorite" onClick={handleClick}>
-              Favorite
-            </button> */}
+            <button className="favorite">Favorite</button>
           </StyledCard>
         );
       })}
