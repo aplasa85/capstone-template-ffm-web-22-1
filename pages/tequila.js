@@ -14,6 +14,7 @@ function TequilaPage() {
           return product.category === "Tequila";
         })}
       />
+      ;
     </>
   );
 }
