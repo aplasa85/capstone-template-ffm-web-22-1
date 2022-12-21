@@ -23,11 +23,11 @@ function MezcalPage({favorites, setFavorites}) {
 export default MezcalPage;
 
 const StyledTitle = styled.h2`
-  border: 1px solid black;
+  border: 0.0625rem solid black;
   color: black;
-  width: 130px;
-  height: 70px;
+  width: 8.125rem;
+  height: 4.375rem;
   margin-top: auto;
-  margin-left: 550px;
-  padding: 20px;
+  margin-left: 34.375rem;
+  padding: 1.25rem;
 `;

@@ -15,11 +15,11 @@ function Products() {
 export default Products;
 
 const StyledTitle = styled.h1`
-  border: 1px solid black;
-  width: 400px;
-  height: 150px;
-  padding: 55px;
-  padding-left: 75px;
+  border: 0.0625rem solid black;
+  width: 25rem;
+  height: 9.375rem;
+  padding: 3.4375rem;
+  padding-left: 4.6875rem;
   margin-left: 32%;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 `;

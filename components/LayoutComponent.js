@@ -1,13 +1,10 @@
 import styled from "styled-components";
+import Navbar from "./Navbar";
 
 export default function Layout({children}) {
   return (
     <>
-      <StyledNav>
-        <StyledMenu className="menu1">Menu</StyledMenu>
-        <StyledInput />
-        <StyledSearch className="menu2">Search</StyledSearch>
-      </StyledNav>
+      <Navbar />
 
       {children}
 
@@ -41,8 +38,4 @@ const StyledMenu = styled.button`
 
 const StyledInput = styled.input`
   margin-right: 20px;
-`;
-
-const StyledSearch = styled.button`
-  padding: 5px;
 `;

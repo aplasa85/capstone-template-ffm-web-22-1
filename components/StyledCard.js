@@ -7,12 +7,12 @@ const StyledCard = styled.div`
   justify-content: center;
   flex-wrap: wrap;
 
-  padding: 5px;
-  margin: 25px 400px;
+  padding: 0.3125rem;
+  margin: 0.15625rem 25rem;
 
   border: 1px solid black;
-  width: 450px;
-  height: 450px;
+  width: 28.125rem;
+  height: 28.125rem;
   color: black;
 `;
 

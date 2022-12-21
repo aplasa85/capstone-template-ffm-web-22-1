@@ -1,12 +1,64 @@
 import styled from "styled-components";
+import search from "../pages/search";
 
 export default function Layout({children}) {
   return (
     <>
       <StyledNav>
-        <StyledMenu className="menu1">Menu</StyledMenu>
-        <StyledInput />
-        <StyledSearch className="menu2">Search</StyledSearch>
+        <ul>
+          <li>
+            <StyledLink href="/">Home</StyledLink>
+          </li>
+          <li>
+            <StyledLink href="/about">About</StyledLink>
+          </li>
+          <li>
+            <StyledLink href="/basket">Basket</StyledLink>
+          </li>
+        </ul>
+
+        <SearchContainer>
+          <input
+            type="text"
+            placeholder="Search"
+            onChange={() => {
+              setSearchQuery(document.querySelector("input").value);
+            }}
+          />
+
+          {searchQuery && (
+            <SearchList>
+              {filteredList.length === 0 && (
+                <SearchResult
+                  onClick={e => {
+                    e.preventDefault();
+                    document.querySelector("input").value = "";
+
+                    setSearchQuery("");
+                  }}
+                >
+                  No results
+                </SearchResult>
+              )}
+              {filteredList.map(drink => {
+                return (
+                  <SearchResult className="link" key={drink.id}>
+                    <StyledLink
+                      href={`/product/${drink.id}`}
+                      onClick={() => {
+                        setSearchQuery("");
+                      }}
+                    >
+                      {drink.brand}
+                    </StyledLink>
+                  </SearchResult>
+                );
+              })}
+            </SearchList>
+          )}
+        </SearchContainer>
+
+        <GiHamburgerMenu className="hamburger" />
       </StyledNav>
 
       {children}

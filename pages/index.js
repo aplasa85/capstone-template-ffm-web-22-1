@@ -24,9 +24,9 @@ export default Home;
 const StyledLink = styled.li`
   color: black;
   display: inline;
-  border: 1px solid black;
+  border: 0.0625rem solid black;
   text-decoration: none;
 
-  padding: 5px;
+  padding: 0.3125rem;
   margin: 20%;
 `;

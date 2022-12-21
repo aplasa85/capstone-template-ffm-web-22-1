@@ -30,45 +30,45 @@ const about = () => {
 
 const StyledTitle = styled.h1`
   border: 1px solid black;
-  width: 400px;
-  height: 150px;
-  padding: 55px;
-  padding-left: 75px;
+  width: 25rem;
+  height: 9.375rem;
+  padding: 3, 4375rem;
+  padding-left: 4.6875rem;
   margin-left: 32%;
   margin-top: 70px;
 `;
 
 const StyledParagraph = styled.p`
   border: 1px solid black;
-  width: 300px;
-  height: 235px;
-  margin-top: 100px;
-  margin-left: 150px;
-  font-size: 20px;
+  width: 18.75rem;
+  height: 14.6875rem;
+  margin-top: 6.25rem;
+  margin-left: 9.375rem;
+  font-size: 1.25rem;
   align-content: center;
-  padding: 10px;
+  padding: 0.625rem;
 `;
 
 const StyledArticle = styled.article`
   border: 1px solid black;
   display: flex;
   order: 1px solid black;
-  width: 300px;
-  height: 235px;
+  width: 18.75rem;
+  height: 14.6875rem;
   margin-bottom: 15%;
   margin-left: 35%;
-  font-size: 20px;
+  font-size: 1.25rem;
   align-content: center;
   justify: right;
-  padding: 10px;
+  padding: 0.625rem;
 `;
 
 const TheImage = styled(Image)`
   position: relative;
-  left: 850px;
-  bottom: 260px;
+  left: 53.125rem;
+  bottom: 16.25rem;
   border: 1px solid black;
-  padding: 30px;
+  padding: 1.875rem;
 `;
 
 export default about;
