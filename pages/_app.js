@@ -1,6 +1,7 @@
 import GlobalStyles from "../styles/GlobalStyles";
 import Layout from "../components/LayoutComponent";
 import {useState} from "react";
+import {DrinksProvider, DrinksContext} from "../globalContext/drinksContext";
 
 function MyApp({Component, pageProps}) {
   const [favorites, setFavorites] = useState(["1"]);
@@ -8,13 +9,15 @@ function MyApp({Component, pageProps}) {
   return (
     <>
       <GlobalStyles />
-      <Layout>
-        <Component
-          {...pageProps}
-          favorites={favorites}
-          setFavorites={setFavorites}
-        />
-      </Layout>
+      <DrinksProvider value={DrinksContext}>
+        <Layout>
+          <Component
+            {...pageProps}
+            favorites={favorites}
+            setFavorites={setFavorites}
+          />
+        </Layout>
+      </DrinksProvider>
     </>
   );
 }

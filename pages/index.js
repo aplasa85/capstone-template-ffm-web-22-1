@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <>
       <ul>
-        <Link href="/tequila">
+        <Link href="categories/tequila">
           <StyledLink>Tequila</StyledLink>
         </Link>
-        <Link href="/mezcal">
+        <Link href="categories/mezcal">
           <StyledLink>Mezcal</StyledLink>
         </Link>
       </ul>

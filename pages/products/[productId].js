@@ -1,15 +1,19 @@
 import React from "react";
 import {useRouter} from "next/router";
-import products from "../../_data/productList.json";
 import Image from "next/image";
 import styled from "styled-components";
 import Link from "next/link";
+import FavoriteToogle from "../../components/FavoriteToggle";
+import {useContext} from "react";
+import {DrinksContext} from "../../globalContext/drinksContext";
+import QuantityHandler from "../../components/QuantityHandler";
 
 function ProductDetails() {
   const router = useRouter();
   const {productId} = router.query;
+  const {listedItems, setListedItems} = useContext(DrinksContext);
 
-  const product = products.find(product => {
+  const product = listedItems.find(product => {
     return product.id === productId;
   });
 
@@ -22,6 +26,8 @@ function ProductDetails() {
       {product && (
         <>
           <StyledBox>
+            <FavoriteToogle drink={product} />
+
             <ul>
               <StyledLine>
                 <li>Brand: {product.brand}</li>
@@ -46,7 +52,7 @@ function ProductDetails() {
               alt="Bottle of Mezcal"
             />
 
-            <StyledButton>Add to Basket</StyledButton>
+            <QuantityHandler drink={product} />
           </StyledBox>
         </>
       )}

@@ -6,7 +6,7 @@
     "type": "Reposado",
     "rating": "4.5",
     "image": "/Assets/TequilaPics/tequila_1.png",
-    "price": "65 euro",
+    "price": "65",
     "favorite": false
   },
 
@@ -17,7 +17,7 @@
     "type": "Reposado",
     "rating": "4.5",
     "image": "/Assets/TequilaPics/tequila_2.png",
-    "price": "70 euro",
+    "price": "70",
     "favorite": false
   },
 
@@ -28,7 +28,7 @@
     "type": "Gold",
     "rating": "3.0",
     "image": "/Assets/TequilaPics/tequila_3.png",
-    "price": "40 euro",
+    "price": "40",
     "favorite": false
   },
 
@@ -39,7 +39,7 @@
     "type": "Reposado",
     "rating": "5.0",
     "image": "/Assets/TequilaPics/tequila_4.png",
-    "price": "70 euro",
+    "price": "70",
     "favorite": false
   },
   {
@@ -49,7 +49,7 @@
     "type": "Anejo",
     "rating": "4.0",
     "image": "/Assets/TequilaPics/tequila_5.png",
-    "price": "50 euro",
+    "price": "50",
     "favorite": false
   },
   {
@@ -59,7 +59,7 @@
     "type": "Anejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_6.png",
-    "price": "50 euro",
+    "price": "50",
     "favorite": false
   },
   {
@@ -69,7 +69,7 @@
     "type": "Anejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_7.png",
-    "price": "50 euro",
+    "price": "50",
     "favorite": false
   },
   {
@@ -89,7 +89,7 @@
     "type": "Espadin",
     "rating": "4.5",
     "image": "/Assets/ProductPics/ProductPics_9.jpg",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   },
 
@@ -100,7 +100,7 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_10.png",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   },
 
@@ -111,7 +111,7 @@
     "type": "Cupreata curated in Coconut",
     "rating": "4.5",
     "image": "/Assets/ProductPics/ProductPics_11.png",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   },
 
@@ -122,7 +122,7 @@
     "type": "Espadin curated in Coconut",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_12.png",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   },
 
@@ -133,7 +133,7 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_13.png",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   },
 
@@ -144,7 +144,7 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_14.jpg",
-    "price": "60 euro",
+    "price": "60",
     "favorite": false
   }
 ]

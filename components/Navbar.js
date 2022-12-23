@@ -12,7 +12,10 @@ const Navbar = () => {
   useEffect(() => {
     setFilteredList(
       productList.filter(product => {
-        return product.brand.toLowerCase().includes(searchQuery.toLowerCase());
+        return (
+          product.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          product.type.toLowerCase().includes(searchQuery.toLowerCase())
+        );
       })
     );
   }, [searchQuery]);
@@ -62,7 +65,7 @@ const Navbar = () => {
                       setSearchQuery("");
                     }}
                   >
-                    {product.brand}
+                    {product.brand} {product.type}
                   </StyledLink>
                 </SearchResult>
               );
