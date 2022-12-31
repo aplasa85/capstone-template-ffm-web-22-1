@@ -15,6 +15,9 @@ export default function Layout({children}) {
           <li>
             <StyledLink href="/basket">Basket</StyledLink>
           </li>
+          <li>
+            <StyledLink href="/favorite">Favorite</StyledLink>
+          </li>
         </ul>
 
         <SearchContainer>

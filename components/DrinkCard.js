@@ -9,7 +9,7 @@ const DrinkCard = ({drink}) => {
     <StyledCard>
       <FavoriteToogle drink={drink} />
       <Link href="/products/[productId]" as={`/products/${drink.id}`}>
-        <p>{String(drink.favorite)}</p>
+        {/* <p>{String(drink.favorite)}</p> */}
         <h3> {drink.brand} &rarr; </h3>
         <p>{drink.type}</p>
         <p>{drink.rating}</p>

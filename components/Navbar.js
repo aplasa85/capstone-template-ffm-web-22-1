@@ -29,6 +29,9 @@ const Navbar = () => {
           <StyledLink href="/basket">Basket</StyledLink>
         </li>
         <li>
+          <StyledLink href="/favorite">Favorite</StyledLink>
+        </li>
+        <li>
           <StyledLink href="/about">About</StyledLink>
         </li>
       </ul>

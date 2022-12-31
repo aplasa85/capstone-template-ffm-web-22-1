@@ -7,6 +7,7 @@ import FavoriteToogle from "../../components/FavoriteToggle";
 import {useContext} from "react";
 import {DrinksContext} from "../../globalContext/drinksContext";
 import QuantityHandler from "../../components/QuantityHandler";
+import Header from "../../components/Header";
 
 function ProductDetails() {
   const router = useRouter();
@@ -19,10 +20,6 @@ function ProductDetails() {
 
   return (
     <>
-      <Link href="/">
-        <StyledTitle>Casa del Agave</StyledTitle>
-      </Link>
-
       {product && (
         <>
           <StyledBox>
@@ -49,7 +46,7 @@ function ProductDetails() {
               src={product.image}
               width="150"
               height="150"
-              alt="Bottle of Mezcal"
+              alt="Bottle of Alcohol"
             />
 
             <QuantityHandler drink={product} />

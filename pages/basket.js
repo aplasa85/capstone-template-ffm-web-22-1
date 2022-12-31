@@ -4,25 +4,22 @@ import {useContext} from "react";
 import {DrinksContext} from "../globalContext/drinksContext";
 import styled from "styled-components";
 import BasketItem from "../components/BasketItem";
+import Header from "../components/Header";
 
 const basket = () => {
   const {basket} = useContext(DrinksContext);
 
   return (
     <>
-      <div>
-        <Head>
-          <title>Basket</title>
-        </Head>
-        <h1>Basket</h1>
-        <h3>// put prices and ratings as numbers in productList.json</h3>
-      </div>
+      <Head>
+        <title>Basket</title>
+      </Head>
+      <Header />
+      <h1>Basket</h1>
 
-      <div>
-        {basket.map(item => (
-          <BasketItem key={item.id} item={item} />
-        ))}
-      </div>
+      {basket.map(item => (
+        <BasketItem key={item.id} item={item} />
+      ))}
     </>
   );
 };
