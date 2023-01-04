@@ -5,7 +5,7 @@ import {DrinksContext} from "../globalContext/drinksContext";
 
 import BasketItem from "../components/BasketItem";
 
-const basket = () => {
+const Basket = () => {
   const {basket} = useContext(DrinksContext);
 
   return (
@@ -19,4 +19,4 @@ const basket = () => {
   );
 };
 
-export default basket;
+export default Basket;
