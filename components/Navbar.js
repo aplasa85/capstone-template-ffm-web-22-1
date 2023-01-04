@@ -3,7 +3,6 @@ import styled from "styled-components";
 import productList from "../_data/productList";
 import {useState, useEffect} from "react";
 import {GiHamburgerMenu} from "react-icons/gi";
-import ProductDetails from "../pages/products/[productId]";
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");

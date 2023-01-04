@@ -1,7 +1,6 @@
-import Link from "next/link";
+//import Link from "next/link";
 
 import styled from "styled-components";
-import {useContext} from "react";
 import QuantityHandler from "./QuantityHandler";
 
 const BasketItem = ({item}) => {

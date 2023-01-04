@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
+
 import {useContext} from "react";
 import {DrinksContext} from "../globalContext/drinksContext";
 import DrinkCard from "../components/DrinkCard";
-import Image from "next/image";
 
-const favorite = () => {
+const Favorite = () => {
   const {listedItems} = useContext(DrinksContext);
 
   const bookmarkedArr = listedItems.filter(product => {
@@ -14,8 +13,6 @@ const favorite = () => {
 
   return (
     <>
-      <Header />
-
       <h1>Favorites</h1>
       {bookmarkedArr.map(drink => (
         <>
@@ -25,4 +22,4 @@ const favorite = () => {
     </>
   );
 };
-export default favorite;
+export default Favorite;

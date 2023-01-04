@@ -2,17 +2,15 @@ import React from "react";
 import {useRouter} from "next/router";
 import Image from "next/image";
 import styled from "styled-components";
-import Link from "next/link";
 import FavoriteToogle from "../../components/FavoriteToggle";
 import {useContext} from "react";
 import {DrinksContext} from "../../globalContext/drinksContext";
 import QuantityHandler from "../../components/QuantityHandler";
-import Header from "../../components/Header";
 
 function ProductDetails() {
   const router = useRouter();
   const {productId} = router.query;
-  const {listedItems, setListedItems} = useContext(DrinksContext);
+  const {listedItems} = useContext(DrinksContext);
 
   const product = listedItems.find(product => {
     return product.id === productId;

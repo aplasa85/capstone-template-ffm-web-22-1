@@ -10,7 +10,7 @@ const QuantityHandler = ({drink}) => {
   const [quantity, setQuantity] = useState(1);
   const [basketQuantity, setBasketQuantity] = useState(0);
   const {basket, setBasket} = useContext(DrinksContext);
-  const [item, setItem] = useState({...drink});
+  const [item] = useState({...drink});
 
   const itemExists = id => {
     return basket.some(item => item.id === id);
