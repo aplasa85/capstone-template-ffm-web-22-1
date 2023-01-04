@@ -21,7 +21,11 @@ const StyledMainDiv = styled.div`
   align-items: center;
   width: 100%;
   min-height: 88.2vh;
-  margin: 0 3%;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    margin: 0 8%;
+  }
 `;
 
 const StyledFooter = styled.footer`

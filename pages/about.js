@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
 import styled from "styled-components";
-import {ST} from "next/dist/shared/lib/utils";
 
 const about = () => {
   return (
@@ -34,13 +33,23 @@ const about = () => {
 const StyledArticle = styled.article`
   font-size: 1.5rem;
   margin: 4rem;
-  justify: center;
+  justify-content: center;
   text-align: center;
+  @media (max-width: 500px) {
+    margin: 1rem;
+  }
 `;
 
 const StyledImage = styled(Image)`
   margin: 3rem;
-  //Needs to be justified in the center//
+  /* center image */
+  transform: translateX(-50%);
+  left: 45%;
+  position: relative;
+
+  @media (max-width: 500px) {
+    margin: 0;
+  }
 `;
 
 const StyledTitle = styled.h1`

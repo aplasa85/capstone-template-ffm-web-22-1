@@ -37,12 +37,11 @@ const StyledLink = styled(Link)`
   display: inline-block;
   margin: 0 1rem;
   font-size: 1.5rem;
-  border: 1px solid black;
   padding: 0.5rem;
-  border-radius: 0.5rem;
-  background-color: #f5f5f5;
+  background-color: #66f;
   cursor: pointer;
   text-decoration: none;
+  color: white;
 `;
 
 const StyledLinksContainer = styled.div`
@@ -60,7 +59,7 @@ const StyledH1 = styled.h1`
 `;
 
 const StyledImage = styled(Image)`
-  margin-bottom: 3rem;
+  margin: 2rem 0;
 `;
 
 export default Home;

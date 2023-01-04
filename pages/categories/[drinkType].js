@@ -13,10 +13,11 @@ function DrinkType() {
   const categoryType = listedItems.filter(
     product => product.category.toLowerCase() === drinkType
   );
+  const drinkTypeCap = drinkType.charAt(0).toUpperCase() + drinkType.slice(1);
 
   return (
     <StyledContainer>
-      <h1>{drinkType} list</h1>
+      <h1>{drinkTypeCap} list</h1>
       <StyledList>
         {categoryType.map(product => (
           <DrinkCard key={product.id} drink={product} />

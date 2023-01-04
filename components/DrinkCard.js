@@ -62,6 +62,10 @@ const StyledCard = styled.div`
     margin-bottom: 3rem;
     padding: 0;
   }
+  @media (max-width: 500px) {
+    margin: 2rem 0;
+    width: 20rem;
+  }
 `;
 
 export default DrinkCard;
