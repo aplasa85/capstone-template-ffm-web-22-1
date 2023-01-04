@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
+import AgaveField from "../public/Assets/Agave.bis.png";
 import styled from "styled-components";
 
 const Home = () => {
@@ -13,7 +14,12 @@ const Home = () => {
         <StyledLink href="categories/mezcal">Mezcal</StyledLink>
       </StyledLinksContainer>
 
-      <StyledImage src={Icon} width="310" height="255" alt="Agave Plant" />
+      <StyledImage
+        src={AgaveField}
+        width="310"
+        height="255"
+        alt="Agave Plant"
+      />
 
       <StyledParagraph>
         Welcome to the Casa del Agave online shop. Here you can find a fine

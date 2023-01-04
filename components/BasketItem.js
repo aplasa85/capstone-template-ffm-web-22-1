@@ -1,5 +1,3 @@
-//import Link from "next/link";
-
 import styled from "styled-components";
 import QuantityHandler from "./QuantityHandler";
 
@@ -11,18 +9,12 @@ const BasketItem = ({item}) => {
         <p>Quantity</p>
       </StyledQuantity>
 
-      {
-        // <Link href="/products/[productId]" as={`/products/${item.id}`} style={{ textDecoration: "none", color: "#66f", backgroundColor: "#aaa", flexBasis: "30%", order: 2 }}>
-        //     {" "}
-      }
       <StyledName>
         <p>
           {item.brand} {item.type}
         </p>
       </StyledName>
-      {
-        // </Link>
-      }
+      {}
 
       <StyledPrice>
         <p>{item.price}</p>

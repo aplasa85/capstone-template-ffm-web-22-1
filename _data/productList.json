@@ -8,7 +8,7 @@
     "image": "/Assets/ProductPics/ProductPics_1.png",
     "price": "65",
     "favorite": true,
-    "description": "El Jimador Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  El Jimador Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Jimador Reposado is a type of premium tequila produced by the brand Jimador. It is aged for at least two months in oak barrels, which gives it a smooth, refined flavor. Jimador Reposado is made from 100% blue agave and is produced in the highlands of the state of Jalisco, Mexico using traditional production methods. It has a golden color and a smooth, balanced taste with notes of oak and vanilla.  "
   },
 
   {
@@ -20,7 +20,7 @@
     "image": "/Assets/ProductPics/ProductPics_2.png",
     "price": "70",
     "favorite": true,
-    "description": "1800 Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  1800 Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "1800 Reposado is a type of premium tequila produced by the brand 1800. It is aged for at least six months in oak barrels, which gives it a smooth, refined flavor. 1800 Reposado is made from 100% blue agave and is produced in the highlands of the state of Jalisco, Mexico using traditional production methods. It has a golden color and a smooth, balanced taste with notes of oak and vanilla.  "
   },
 
   {
@@ -32,7 +32,7 @@
     "image": "/Assets/ProductPics/ProductPics_3.png",
     "price": "40",
     "favorite": false,
-    "description": "Jose Cuervo Gold is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Jose Cuervo Gold is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Jose Cuervo Gold is a type of tequila produced by the brand Jose Cuervo. It is a blend of reposado and younger tequilas, and is typically aged for up to a year. Jose Cuervo Gold is made from a blend of 51% blue agave and 49% other sugars, such as corn and fructose. It has a golden color and a smooth, sweet flavor with notes of oak and vanilla. "
   },
 
   {
@@ -44,40 +44,40 @@
     "image": "/Assets/ProductPics/ProductPics_4.png",
     "price": "70",
     "favorite": false,
-    "description": "Don Julio Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Don Julio Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Don Julio Reposado is a type of premium tequila produced by the brand Don Julio. It is aged for at least eight months in oak barrels, which gives it a smooth, refined flavor. The aging process also imparts a golden color to the tequila. Don Julio Reposado is made from 100% blue agave and is produced in the highlands of the state of Jalisco, Mexico using traditional production methods."
   },
   {
     "id": "5",
     "category": "Tequila",
     "brand": "Herradura",
-    "type": "Anejo",
+    "type": "Añejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_5.png",
     "price": "50",
     "favorite": false,
-    "description": "Herradura Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Herradura Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Herradura is a brand of tequila produced in the highlands of the state of Jalisco, Mexico. It is known for its high-quality agave and traditional production methods, which involve cooking the agave in clay ovens and using a tahona (a large stone wheel) to crush the cooked agave. Herradura produces a range of tequilas, including blanco, reposado, añejo, and extra añejo. The brand is known for its signature amber-colored bottle, which was designed to resemble a horse's hoof. "
   },
   {
     "id": "6",
     "category": "Tequila",
     "brand": "1800",
-    "type": "Anejo",
+    "type": "Añejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_6.png",
     "price": "50",
     "favorite": false,
-    "description": "1800 Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  1800 Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Herradura Añejo is a type of premium tequila produced by the brand Herradura. It is aged for at least one year in oak barrels, which gives it a smooth, refined flavor. Herradura Añejo is made from 100% blue agave and is produced in the highlands of the state of Jalisco, Mexico using traditional production methods. It has a golden color and a smooth, complex taste with notes of oak, vanilla, and caramel.  "
   },
   {
     "id": "7",
     "category": "Tequila",
     "brand": "Don Julio",
-    "type": "Anejo",
+    "type": "Añejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_7.png",
     "price": "50",
     "favorite": false,
-    "description": "Don Julio Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Don Julio Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Don Julio Añejo is a type of premium tequila produced by the brand Don Julio. It is aged for at least 18 months in oak barrels, which gives it a smooth, refined flavor. Don Julio Añejo is made from 100% blue agave and is produced in the highlands of the state of Jalisco, Mexico using traditional production methods. It has a golden color and a smooth, complex taste with notes of oak, vanilla, and caramel."
   },
   {
     "id": "8",
@@ -88,7 +88,7 @@
     "image": "/Assets/ProductPics/ProductPics_8.png",
     "price": "40",
     "favorite": false,
-    "description": "Sauza Gold is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Sauza Gold is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "Sauza Gold is a type of tequila produced by the brand Sauza. It is a blend of reposado and younger tequilas, and is typically aged for up to a year. Sauza Gold is made from a blend of 51% blue agave and 49% other sugars, such as corn and fructose. It has a golden color and a smooth, sweet flavor with notes of oak and vanilla."
   },
   {
     "id": "9",
@@ -99,7 +99,7 @@
     "image": "/Assets/ProductPics/ProductPics_9.jpg",
     "price": "60",
     "favorite": true,
-    "description": "San Cosme Espadin is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  San Cosme Espadin is a smooth, well-balanced tequila with a hint of vanilla and oak. "
+    "description": "San Cosme Espadin is a type of mezcal produced by the brand San Cosme. It is made from the espadin variety of agave, which is the most commonly used type of agave for mezcal production. San Cosme Espadin is made in the state of Oaxaca, Mexico, using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. San Cosme Espadin has a smooth, smoky flavor with notes of agave and earth. "
   },
 
   {
@@ -111,7 +111,7 @@
     "image": "/Assets/ProductPics/ProductPics_10.png",
     "price": "60",
     "favorite": false,
-    "description": "Los Jacinto Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
+    "description": "Los Jacinto Espadin is a type of mezcal produced by the brand Los Jacinto. It is made from the espadin variety of agave, which is the most commonly used type of agave for mezcal production. Los Jacinto Espadin is made in the state of Guerrero, Mexico, using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. Los Jacinto Espadin has a smooth, smoky flavor with notes of agave and earth."
   },
 
   {
@@ -123,7 +123,7 @@
     "image": "/Assets/ProductPics/ProductPics_11.png",
     "price": "60",
     "favorite": false,
-    "description": "Los Jacinto Cupreata is mezcal made from 100% agave Cupreata. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Cupreata is a smooth, well-balanced mezcal with a hint of vanilla and oak."
+    "description": "Los Jacinto Cupreata curated in Coconut is a type of mezcal produced by the brand Los Jacinto. It is made from the cupreata variety of agave, which is considered as a high-quality variety of mezcal, which is curated inside coconuts. Los Jacinto Cupreata curated in Coconut is made in the state of Guerrero, Mexico, using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. Los Jacinto Cupreata curated in Coconut has a smooth, smoky flavor with notes of agave and earth added with the characteristic Coconut taste."
   },
 
   {
@@ -135,7 +135,7 @@
     "image": "/Assets/ProductPics/ProductPics_12.png",
     "price": "60",
     "favorite": false,
-    "description": "Los Jacinto Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
+    "description": "Los Jacinto Espadin curated in Coconut is a type of mezcal produced by the brand Los Jacinto. It is made from the espadin variety of agave, which is the most commonly used type of agave for mezcal production, which is curated inside coconuts. Los Jacinto Espadin curated in Coconut is made in the state of Guerrero, Mexico, using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. Los Jacinto Espadin curated in Coconut has a smooth, smoky flavor with notes of agave and earth added with the characteristic Coconut taste."
   },
 
   {
@@ -147,7 +147,7 @@
     "image": "/Assets/ProductPics/ProductPics_13.png",
     "price": "60",
     "favorite": false,
-    "description": "Ojo de Tigre Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Ojo de Tigre Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
+    "description": "Ojo de Tigre is a brand of mezcal produced in the state of Oaxaca, Mexico. It is made from the espadin variety of agave, which is the most commonly used type of agave for mezcal production. Ojo de Tigre is made using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. Ojo de Tigre has a smooth, smoky flavor with notes of agave and earth."
   },
 
   {
@@ -159,6 +159,6 @@
     "image": "/Assets/ProductPics/ProductPics_14.jpg",
     "price": "60",
     "favorite": false,
-    "description": "Amaras Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Amaras Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
+    "description": "Amaras Espadin is a type of mezcal produced by the brand Amaras. It is made from the espadin variety of agave, which is the most commonly used type of agave for mezcal production. Amaras Espadin is made in the state of Oaxaca, Mexico, using traditional production methods that involve roasting the agave in underground pits, crushing it with a stone wheel (tahona), and fermenting and distilling the juice to produce the final product. Amaras Espadin has a smooth, smoky flavor with notes of agave and earth. "
   }
 ]
