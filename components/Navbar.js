@@ -8,6 +8,7 @@ import ProductDetails from "../pages/products/[productId]";
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredList, setFilteredList] = useState(productList);
+  const [toggleHamburger, setToggleHamburger] = useState(false);
 
   useEffect(() => {
     setFilteredList(
@@ -21,15 +22,22 @@ const Navbar = () => {
   }, [searchQuery]);
   return (
     <StyledNav>
-      <ul>
+      <ul className="bigNavList">
         <li>
           <StyledLink href="/">Home</StyledLink>
         </li>
+
         <li>
-          <StyledLink href="/basket">Basket</StyledLink>
+          <StyledLink href="/categories/tequila">Tequila</StyledLink>
+        </li>
+        <li>
+          <StyledLink href="/categories/mezcal">Mezcal</StyledLink>
         </li>
         <li>
           <StyledLink href="/favorite">Favorite</StyledLink>
+        </li>
+        <li>
+          <StyledLink href="/basket">Basket</StyledLink>
         </li>
         <li>
           <StyledLink href="/about">About</StyledLink>
@@ -77,13 +85,45 @@ const Navbar = () => {
         )}
       </SearchContainer>
 
-      <GiHamburgerMenu className="hamburger" />
+      <GiHamburgerMenu
+        className="hamburger"
+        onClick={() => {
+          setToggleHamburger(!toggleHamburger);
+        }}
+      />
+
+      {!toggleHamburger && (
+        <HamburgerDropdown>
+          <ul>
+            <li>
+              <StyledLink href="/">Home</StyledLink>
+            </li>
+
+            <li>
+              <StyledLink href="/categories/tequila">Tequila</StyledLink>
+            </li>
+            <li>
+              <StyledLink href="/categories/mezcal">Mezcal</StyledLink>
+            </li>
+            <li>
+              <StyledLink href="/favorite">Favorite</StyledLink>
+            </li>
+            <li>
+              <StyledLink href="/basket">Basket</StyledLink>
+            </li>
+            <li>
+              <StyledLink href="/about">About</StyledLink>
+            </li>
+          </ul>
+        </HamburgerDropdown>
+      )}
     </StyledNav>
   );
 };
 
 const StyledNav = styled.nav`
   display: flex;
+  width: 100%;
   justify-content: space-around;
   background-color: grey;
   color: white;
@@ -114,8 +154,7 @@ const StyledNav = styled.nav`
   }
 
   @media (max-width: 768px) {
-    div,
-    ul {
+    .bigNavList {
       display: none;
     }
     .hamburger {
@@ -158,4 +197,26 @@ const SearchResult = styled.li`
   width: 100%;
   cursor: pointer;
 `;
+
+const HamburgerDropdown = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+    position: absolute;
+    display: flex;
+    background-color: #555;
+    ul {
+      position: relative;
+      /* move to right side */
+      right: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+`;
+
 export default Navbar;

@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/head";
+
 import {useContext} from "react";
 import {DrinksContext} from "../globalContext/drinksContext";
 import styled from "styled-components";
@@ -10,17 +10,13 @@ const basket = () => {
   const {basket} = useContext(DrinksContext);
 
   return (
-    <>
-      <Head>
-        <title>Basket</title>
-      </Head>
-      <Header />
+    <div>
       <h1>Basket</h1>
 
       {basket.map(item => (
         <BasketItem key={item.id} item={item} />
       ))}
-    </>
+    </div>
   );
 };
 

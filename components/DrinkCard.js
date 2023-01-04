@@ -7,25 +7,37 @@ import QuantityHandler from "./QuantityHandler";
 const DrinkCard = ({drink}) => {
   return (
     <StyledCard>
-      <FavoriteToogle drink={drink} />
       <Link href="/products/[productId]" as={`/products/${drink.id}`}>
         {/* <p>{String(drink.favorite)}</p> */}
-        <h3> {drink.brand} &rarr; </h3>
-        <p>{drink.type}</p>
-        <p>{drink.rating}</p>
-        <p>{drink.price}</p>
+        <h3 style={{textAlign: "center"}}> {drink.brand} </h3>
+        <StyledBox>
+          <div style={{maxWidth: "6rem"}}>
+            <p>{drink.type}</p>
+            <p>{drink.rating}</p>
+            <p>{drink.price}</p>
+          </div>
 
-        <Image
-          src={drink.image}
-          width="150"
-          height="150"
-          alt="Bottle of drink"
-        />
+          <Image
+            src={drink.image}
+            width="150"
+            height="150"
+            alt="Bottle of drink"
+          />
+        </StyledBox>
       </Link>
       <QuantityHandler drink={drink} />
+
+      <FavoriteToogle drink={drink} />
     </StyledCard>
   );
 };
+
+const StyledBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+`;
 
 const StyledCard = styled.div`
   display: flex;
@@ -33,14 +45,24 @@ const StyledCard = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-  padding: 0.3125rem;
-  margin: 0.15625rem 25rem;
-
+  padding: 1rem;
+  margin: 2rem;
   border: 1px solid black;
-  width: 28.125rem;
-  height: 28.125rem;
+  width: 28rem;
+  height: 28rem;
   color: black;
+  background-color: #f5f5f5;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 0;
+  }
 `;
 
 export default DrinkCard;

@@ -3,6 +3,8 @@ import {useRouter} from "next/router";
 import DrinkCard from "../../components/DrinkCard";
 import {useContext} from "react";
 import {DrinksContext} from "../../globalContext/drinksContext";
+import StyledContainer from "../../components/styled/StyledContainer";
+import styled from "styled-components";
 
 function DrinkType() {
   const {listedItems, basket} = useContext(DrinksContext);
@@ -13,14 +15,21 @@ function DrinkType() {
   );
 
   return (
-    <>
-      <p>{JSON.stringify(basket)}</p>
+    <StyledContainer>
       <h1>{drinkType} list</h1>
-      {categoryType.map(product => (
-        <DrinkCard key={product.id} drink={product} />
-      ))}
-    </>
+      <StyledList>
+        {categoryType.map(product => (
+          <DrinkCard key={product.id} drink={product} />
+        ))}
+      </StyledList>
+    </StyledContainer>
   );
 }
+const StyledList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`;
 
 export default DrinkType;

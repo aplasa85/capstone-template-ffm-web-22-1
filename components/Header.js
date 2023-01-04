@@ -2,18 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Icon from "../public/Assets/Agave.jpg";
 import styled from "styled-components";
-import Head from "next/head";
 import Link from "next/link";
 
 const Header = () => {
   return (
     <div>
-      <Head>
-        <title>Casa del Agave</title>
-      </Head>
-
       <Link href="/">
-        <StyledTitle>Casa del Agave</StyledTitle>
+        <StyledTitle>Casa del Agave!</StyledTitle>
       </Link>
 
       <StyledParagraph>

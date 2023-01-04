@@ -1,6 +1,10 @@
 import React from "react";
 import {useContext, useState} from "react";
 import {DrinksContext} from "../globalContext/drinksContext";
+import {
+  StyledButton,
+  StyledInputNumber,
+} from "../components/styled/StyledElements";
 
 const QuantityHandler = ({drink}) => {
   const [quantity, setQuantity] = useState(1);
@@ -41,15 +45,14 @@ const QuantityHandler = ({drink}) => {
 
   return (
     <div>
-      <button onClick={add}>
+      <StyledInputNumber
+        type="number"
+        value={quantity}
+        onChange={updateQuantity}
+      />
+      <StyledButton onClick={add}>
         {itemExists(item.id) ? "Update quantity" : "Add to Basket"}
-      </button>
-
-      <input type="number" value={quantity} onChange={updateQuantity} />
-      {
-        //remove this later
-        itemExists(item.id) && <p>in basket: {basketQuantity}</p>
-      }
+      </StyledButton>
     </div>
   );
 };
