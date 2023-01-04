@@ -1,19 +1,22 @@
 import React from "react";
-import Head from "next/head";
 
-const about = () => {
+import {useContext} from "react";
+import {DrinksContext} from "../globalContext/drinksContext";
+
+import BasketItem from "../components/BasketItem";
+
+const Basket = () => {
+  const {basket} = useContext(DrinksContext);
+
   return (
-    <>
-      <div>
-        <Head>
-          <title>Basket</title>
-        </Head>
-        <h1>Basket</h1>
-      </div>
+    <div>
+      <h1>Basket</h1>
 
-      <div></div>
-    </>
+      {basket.map(item => (
+        <BasketItem key={item.id} item={item} />
+      ))}
+    </div>
   );
 };
 
-export default about;
+export default Basket;

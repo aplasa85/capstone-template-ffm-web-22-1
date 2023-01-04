@@ -1,16 +1,25 @@
-// import React from "react";
-// import Header from "../components/Header";
-// import bookmarked from "../components/MezcalCard";
+import React from "react";
 
-const favorite = () => {};
-//   eturn (
-//     // <>
-//     //   <Header />; const useRouter = useRouter(); const {productId} =
-//     //   router.query; const bookmarked = bookmarked.map(item = (
-//     //   productList.bookmarked === true; ))); return(
-//     //   {JSON.stringify(bookmarked)}
-//     // </>
-//   )}
-// ;
+import {useContext} from "react";
+import {DrinksContext} from "../globalContext/drinksContext";
+import DrinkCard from "../components/DrinkCard";
 
-export default favorite;
+const Favorite = () => {
+  const {listedItems} = useContext(DrinksContext);
+
+  const bookmarkedArr = listedItems.filter(product => {
+    return product.favorite;
+  });
+
+  return (
+    <>
+      <h1>Favorites</h1>
+      {bookmarkedArr.map(drink => (
+        <>
+          <DrinkCard drink={drink} />
+        </>
+      ))}
+    </>
+  );
+};
+export default Favorite;

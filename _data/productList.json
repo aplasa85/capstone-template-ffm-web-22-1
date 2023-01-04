@@ -5,8 +5,10 @@
     "brand": "El Jimador",
     "type": "Reposado",
     "rating": "4.5",
-    "image": "/Assets/TequilaPics/tequila_1.png",
-    "price": "65 euro"
+    "image": "/Assets/ProductPics/ProductPics_1.png",
+    "price": "65",
+    "favorite": true,
+    "description": "El Jimador Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  El Jimador Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
 
   {
@@ -15,8 +17,10 @@
     "brand": "1800",
     "type": "Reposado",
     "rating": "4.5",
-    "image": "/Assets/TequilaPics/tequila_2.png",
-    "price": "70 euro"
+    "image": "/Assets/ProductPics/ProductPics_2.png",
+    "price": "70",
+    "favorite": true,
+    "description": "1800 Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  1800 Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
 
   {
@@ -25,8 +29,10 @@
     "brand": "Jose Cuervo",
     "type": "Gold",
     "rating": "3.0",
-    "image": "/Assets/TequilaPics/tequila_3.png",
-    "price": "40 euro"
+    "image": "/Assets/ProductPics/ProductPics_3.png",
+    "price": "40",
+    "favorite": false,
+    "description": "Jose Cuervo Gold is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Jose Cuervo Gold is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
 
   {
@@ -35,8 +41,10 @@
     "brand": "Don Julio",
     "type": "Reposado",
     "rating": "5.0",
-    "image": "/Assets/TequilaPics/tequila_4.png",
-    "price": "70 euro"
+    "image": "/Assets/ProductPics/ProductPics_4.png",
+    "price": "70",
+    "favorite": false,
+    "description": "Don Julio Reposado is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Don Julio Reposado is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
   {
     "id": "5",
@@ -44,8 +52,10 @@
     "brand": "Herradura",
     "type": "Anejo",
     "rating": "4.0",
-    "image": "/Assets/TequilaPics/tequila_5.png",
-    "price": "50 euro"
+    "image": "/Assets/ProductPics/ProductPics_5.png",
+    "price": "50",
+    "favorite": false,
+    "description": "Herradura Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Herradura Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
   {
     "id": "6",
@@ -54,7 +64,9 @@
     "type": "Anejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_6.png",
-    "price": "50 euro"
+    "price": "50",
+    "favorite": false,
+    "description": "1800 Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  1800 Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
   {
     "id": "7",
@@ -63,7 +75,9 @@
     "type": "Anejo",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_7.png",
-    "price": "50 euro"
+    "price": "50",
+    "favorite": false,
+    "description": "Don Julio Anejo is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Don Julio Anejo is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
   {
     "id": "8",
@@ -72,7 +86,9 @@
     "type": "Gold",
     "rating": "3.0",
     "image": "/Assets/ProductPics/ProductPics_8.png",
-    "price": "40 euro"
+    "price": "40",
+    "favorite": false,
+    "description": "Sauza Gold is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Sauza Gold is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
   {
     "id": "9",
@@ -81,7 +97,9 @@
     "type": "Espadin",
     "rating": "4.5",
     "image": "/Assets/ProductPics/ProductPics_9.jpg",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": true,
+    "description": "San Cosme Espadin is a 100% agave tequila that is aged for 2 months in American oak barrels. The tequila is made from the finest hand-selected blue agave plants, which are baked in brick ovens and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  San Cosme Espadin is a smooth, well-balanced tequila with a hint of vanilla and oak. "
   },
 
   {
@@ -91,7 +109,9 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_10.png",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": false,
+    "description": "Los Jacinto Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
   },
 
   {
@@ -101,7 +121,9 @@
     "type": "Cupreata curated in Coconut",
     "rating": "4.5",
     "image": "/Assets/ProductPics/ProductPics_11.png",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": false,
+    "description": "Los Jacinto Cupreata is mezcal made from 100% agave Cupreata. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Cupreata is a smooth, well-balanced mezcal with a hint of vanilla and oak."
   },
 
   {
@@ -111,7 +133,9 @@
     "type": "Espadin curated in Coconut",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_12.png",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": false,
+    "description": "Los Jacinto Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Los Jacinto Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
   },
 
   {
@@ -121,7 +145,9 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_13.png",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": false,
+    "description": "Ojo de Tigre Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Ojo de Tigre Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
   },
 
   {
@@ -131,6 +157,8 @@
     "type": "Espadin",
     "rating": "4.0",
     "image": "/Assets/ProductPics/ProductPics_14.jpg",
-    "price": "60 euro"
+    "price": "60",
+    "favorite": false,
+    "description": "Amaras Espadin is mezcal made from 100% agave Espadin. The agave is cooked in a traditional clay oven and then crushed using a tahona stone wheel. The juice is then fermented in stainless steel tanks and distilled in copper pot stills.  Amaras Espadin is a smooth, well-balanced mezcal with a hint of vanilla and oak."
   }
 ]
