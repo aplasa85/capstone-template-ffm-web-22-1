@@ -15,9 +15,7 @@ const Favorite = () => {
     <>
       <h1>Favorites</h1>
       {bookmarkedArr.map(drink => (
-        <>
-          <DrinkCard drink={drink} />
-        </>
+        <DrinkCard key={drink.id} drink={drink} />
       ))}
     </>
   );
