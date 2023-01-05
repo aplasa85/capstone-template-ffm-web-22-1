@@ -6,17 +6,15 @@ import styled from "styled-components";
 const about = () => {
   return (
     <div>
+      <StyledTitle> About Casa del Agave</StyledTitle>
       <StyledArticle>
-        Welcome to the About section of our tequila web shop! We are a group of
-        tequila enthusiasts who are passionate about bringing the finest and
-        most diverse selection of tequilas to our customers. Our team has
-        traveled to distilleries across Mexico to hand-select the best tequilas
-        for our shop. We believe in the rich history and cultural significance
-        of tequila and strive to educate our customers on its production process
-        and different varieties. We are committed to providing exceptional
-        service and ensuring that every customer has a memorable shopping
-        experience with us. Thank you for choosing us and we hope you enjoy
-        exploring all that our shop has to offer. Salud!
+        Welcome to the Casa del Agave online shop! We are a group of tequila and
+        mezcal enthusiasts who are passionate about bringing the finest and most
+        diverse selection of tequilas and mezcales to our customers. We believe
+        in the rich history and cultural significance of tequila and strive to
+        educate our customers on its production process and different varieties.
+        Thank you for choosing us and we hope you enjoy exploring all that our
+        shop has to offer. Salud!
       </StyledArticle>
 
       <StyledImage src={Icon} width="310" height="255" alt="Agave Plant" />
@@ -34,10 +32,30 @@ const about = () => {
 
 const StyledArticle = styled.article`
   font-size: 1.5rem;
+  margin: 4rem;
+  justify-content: center;
+  text-align: center;
+  @media (max-width: 500px) {
+    margin: 1rem;
+  }
 `;
 
 const StyledImage = styled(Image)`
   margin: 3rem;
+  /* center image */
+  transform: translateX(-50%);
+  left: 45%;
+  position: relative;
+
+  @media (max-width: 500px) {
+    margin: 0;
+  }
+`;
+
+const StyledTitle = styled.h1`
+  text-align: center;
+  margin-top: 5rem;
+  justify: center;
 `;
 
 export default about;

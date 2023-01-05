@@ -27,12 +27,6 @@ const Navbar = () => {
         </li>
 
         <li>
-          <StyledLink href="/categories/tequila">Tequila</StyledLink>
-        </li>
-        <li>
-          <StyledLink href="/categories/mezcal">Mezcal</StyledLink>
-        </li>
-        <li>
           <StyledLink href="/favorite">Favorite</StyledLink>
         </li>
         <li>
@@ -95,23 +89,65 @@ const Navbar = () => {
         <HamburgerDropdown>
           <ul>
             <li>
-              <StyledLink href="/">Home</StyledLink>
+              <StyledLink
+                href="/"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                Home
+              </StyledLink>
             </li>
 
             <li>
-              <StyledLink href="/categories/tequila">Tequila</StyledLink>
+              <StyledLink
+                href="/categories/tequila"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                Tequila
+              </StyledLink>
             </li>
             <li>
-              <StyledLink href="/categories/mezcal">Mezcal</StyledLink>
+              <StyledLink
+                href="/categories/mezcal"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                Mezcal
+              </StyledLink>
             </li>
             <li>
-              <StyledLink href="/favorite">Favorite</StyledLink>
+              <StyledLink
+                href="/favorite"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                Favorite
+              </StyledLink>
             </li>
             <li>
-              <StyledLink href="/basket">Basket</StyledLink>
+              <StyledLink
+                href="/basket"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                Basket
+              </StyledLink>
             </li>
             <li>
-              <StyledLink href="/about">About</StyledLink>
+              <StyledLink
+                href="/about"
+                onClick={() => {
+                  setToggleHamburger(!toggleHamburger);
+                }}
+              >
+                About
+              </StyledLink>
             </li>
           </ul>
         </HamburgerDropdown>
@@ -132,8 +168,9 @@ const StyledNav = styled.nav`
     list-style: none;
   }
   li {
-    margin-right: 5px;
+    margin: 0 2rem;
     padding: 5px;
+    padding-right: 22px;
   }
   div {
     input,

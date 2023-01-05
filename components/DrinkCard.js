@@ -8,13 +8,12 @@ const DrinkCard = ({drink}) => {
   return (
     <StyledCard>
       <Link href="/products/[productId]" as={`/products/${drink.id}`}>
-        {/* <p>{String(drink.favorite)}</p> */}
         <h3 style={{textAlign: "center"}}> {drink.brand} </h3>
         <StyledBox>
           <div style={{maxWidth: "6rem"}}>
             <p>{drink.type}</p>
             <p>{drink.rating}</p>
-            <p>{drink.price}</p>
+            <p>{drink.price} €</p>
           </div>
 
           <Image
@@ -62,6 +61,10 @@ const StyledCard = styled.div`
     font-size: 1.5rem;
     margin-bottom: 3rem;
     padding: 0;
+  }
+  @media (max-width: 500px) {
+    margin: 2rem 0;
+    width: 20rem;
   }
 `;
 
