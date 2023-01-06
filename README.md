@@ -2,7 +2,10 @@
 
 This is the Casa del Agave Tequila and Mezcal online shop based in Berlin. Browse through this fine selection of brands delivered 
 directly to your house for your convenience. Come and take a look at this splendid capstone project of Neue Fische! 
+
 Salud! 
+
+
 
 
 
@@ -13,8 +16,10 @@ Salud!
 
 
 
+
 Vercel Address: 
 https://capstone-template-ffm-web-22-1-five.vercel.app/
+
 
 TechStack:
 
